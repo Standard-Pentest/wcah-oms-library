@@ -1,0 +1,42 @@
+{
+  "title": "WCAH OMS v1 Documentation",
+  "brandMark": "OMS",
+  "brandSub": "v1 (Full Stack)",
+  "tagline": "West Coast Animal Hospital — Operations Management System v1",
+  "description": "Complete architecture, API contracts, domain model, specifications, and SDD task reports for OMS v1.",
+  "language": "en",
+  "accentColor": "#475a6e",
+  "surfaceColor": "#f9f9f7",
+  "fontBody": "Open Sans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+  "codeCopy": true,
+  "pageToc": {
+    "placement": "rail",
+    "minHeadings": 2
+  },
+  "export": {
+    "enabled": true,
+    "scopes": [
+      "page",
+      "site"
+    ],
+    "showTagline": true,
+    "showDate": true
+  },
+  "share": {
+    "enabled": true,
+    "services": [
+      "copy",
+      "email"
+    ]
+  },
+  "welcome": {
+    "eyebrow": "WCAH OMS v1",
+    "headline": "Full-Stack OMS Documentation",
+    "lead": "Backend APIs, modular schema architecture, domain models, specifications, and document export/import pipelines for OMS v1.",
+    "pillars": [
+      "Domain model, schema architecture, and conformance contracts.",
+      "Sprint plans and technical designs for document APIs & modular schema.",
+      "SDD 2026-08-09 SP2A Document API execution reports and test evidence."
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "default": "welcome",
+  "sections": [
+    {
+      "id": "welcome",
+      "title": "Welcome & Overview",
+      "summary": "Introduction to WCAH OMS Hall of Records and project archives.",
+      "file": "welcome.md"
+    },
+    {
+      "id": "genesis-group",
+      "title": "Genesis & Business Problem",
+      "summary": "Origin of the project, tacit expertise dilemma, and foundational epic specs.",
+      "sections": [
+        {
+          "id": "genesis-and-business-problem",
+          "title": "The WCAH Business Problem",
+          "summary": "The single-person bottleneck, ~60 clinical staff, and AI-native shift objectives.",
+          "file": "genesis-and-business-problem.md"
+        },
+        {
+          "id": "scheduling-epic-spec",
+          "title": "Scheduling Epic Specification",
+          "summary": "Prototyping brief, cross-industry mechanisms, assumptions challenged, and 3-layer architecture.",
+          "file": "scheduling-epic-spec.md"
+        }
+      ]
+    },
+    {
+      "id": "architecture-group",
+      "title": "Architecture & Engineering",
+      "summary": "12-Factor enterprise transformation blueprint and technology comparisons.",
+      "sections": [
+        {
+          "id": "architecture-12factor-plan",
+          "title": "12-Factor Production Plan",
+          "summary": "Enterprise transformation architecture: FastAPI, PostgreSQL, Entra ID SSO, and Docker.",
+          "file": "architecture-12factor-plan.md"
+        },
+        {
+          "id": "approaches-and-technology",
+          "title": "Approaches & Technology Stack",
+          "summary": "Cross-generational comparison matrix from local-first JS to clean-architecture Python.",
+          "file": "approaches-and-technology.md"
+        }
+      ]
+    },
+    {
+      "id": "timeline-group",
+      "title": "Evolution Timeline & Sub-Tenants",
+      "summary": "Chronological sprint timeline and direct navigation to all three tenant repositories.",
+      "sections": [
+        {
+          "id": "evolution-timeline",
+          "title": "Platform Evolution Timeline",
+          "summary": "July-August 2026 milestone calendar with links into every sub-tenant specification.",
+          "file": "evolution-timeline.md"
+        },
+        {
+          "id": "subtenant-oms-v0",
+          "title": "Tenant: OMS v0 (Scheduler MVP)",
+          "summary": "Historical archive of Generation 1: 64 documents, pure JS rules, and 22 SDD reports.",
+          "file": "subtenant-oms-v0.md"
+        },
+        {
+          "id": "subtenant-oms-v1",
+          "title": "Tenant: OMS v1 (Full-Stack OMS)",
+          "summary": "Historical archive of Generation 2: 60 documents, FastAPI backend, and Document API.",
+          "file": "subtenant-oms-v1.md"
+        },
+        {
+          "id": "subtenant-oms-v2",
+          "title": "Tenant: OMS v2 (Next-Gen OMS)",
+          "summary": "Active archive of Generation 3: 44 documents, clean foundation slice, and seed conversion.",
+          "file": "subtenant-oms-v2.md"
+        }
+      ]
+    },
+    {
+      "id": "retrospective-group",
+      "title": "Retrospective & Strategy",
+      "summary": "Post-mortems, domain lessons learned, and the greenfield-next-to-brownfield analysis.",
+      "sections": [
+        {
+          "id": "challenges-and-lessons",
+          "title": "Challenges Met & Lessons Learned",
+          "summary": "Critical domain discoveries: tacit knowledge extraction, Excel parity, and home dept decoupling.",
+          "file": "challenges-and-lessons.md"
+        },
+        {
+          "id": "greenfield-vs-brownfield-analysis",
+          "title": "Greenfield vs Brownfield Analysis",
+          "summary": "Architectural essay proving why iterative greenfield repos acted as an accelerator.",
+          "file": "greenfield-vs-brownfield-analysis.md"
+        }
+      ]
+    }
+  ]
+}

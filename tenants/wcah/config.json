@@ -1,0 +1,36 @@
+{
+  "title": "WCAH: OMS Hall of Records",
+  "brandMark": "WCAH",
+  "brandSub": "Hall of Records",
+  "tagline": "West Coast Animal Hospital — Operations Management System Archive & Architecture",
+  "description": "Anchor portal, specifications, 12-factor architecture, cross-generational timeline, and technical retrospective for WCAH OMS.",
+  "language": "en",
+  "accentColor": "#516d7d",
+  "surfaceColor": "#f9f9f7",
+  "fontBody": "Open Sans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+  "codeCopy": true,
+  "pageToc": {
+    "placement": "rail",
+    "minHeadings": 2
+  },
+  "export": {
+    "enabled": true,
+    "scopes": ["page", "site"],
+    "showTagline": true,
+    "showDate": true
+  },
+  "share": {
+    "enabled": true,
+    "services": ["copy", "email"]
+  },
+  "welcome": {
+    "eyebrow": "WCAH Architecture Portal",
+    "headline": "OMS Hall of Records",
+    "lead": "The central repository documenting the genesis, specifications, architectural evolution, and multi-tenant library for West Coast Animal Hospital.",
+    "pillars": [
+      "Original business genesis, epic specifications, and tacit rule extraction.",
+      "12-Factor enterprise transformation blueprint & cross-generational timeline.",
+      "In-depth analysis of the 'greenfield next to brownfield' iterative development accelerator."
+    ]
+  }
+}

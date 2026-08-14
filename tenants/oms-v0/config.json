@@ -1,0 +1,36 @@
+{
+  "title": "WCAH OMS v0 (Scheduler) Documentation",
+  "brandMark": "OMS",
+  "brandSub": "v0 (Scheduler)",
+  "tagline": "West Coast Animal Hospital — Operations Management System v0",
+  "description": "Comprehensive documentation, specifications, architecture, and task reports for OMS v0 (Scheduler MVP).",
+  "language": "en",
+  "accentColor": "#4f818d",
+  "surfaceColor": "#f9f9f7",
+  "fontBody": "Open Sans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+  "codeCopy": true,
+  "pageToc": {
+    "placement": "rail",
+    "minHeadings": 2
+  },
+  "export": {
+    "enabled": true,
+    "scopes": ["page", "site"],
+    "showTagline": true,
+    "showDate": true
+  },
+  "share": {
+    "enabled": true,
+    "services": ["copy", "email"]
+  },
+  "welcome": {
+    "eyebrow": "WCAH OMS v0",
+    "headline": "Scheduler MVP Documentation",
+    "lead": "Architecture, technical specifications, implementation plans, and SDD task reports for the initial West Coast Animal Hospital scheduler.",
+    "pillars": [
+      "Core scheduler MVP specifications and design docs.",
+      "Sprint and task implementation plans with verification criteria.",
+      "Complete historical SDD execution briefs and progress reports."
+    ]
+  }
+}

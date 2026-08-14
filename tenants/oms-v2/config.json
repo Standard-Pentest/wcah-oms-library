@@ -1,0 +1,42 @@
+{
+  "title": "WCAH OMS v2 (Next-Gen) Documentation",
+  "brandMark": "OMS",
+  "brandSub": "v2 (Next-Gen)",
+  "tagline": "West Coast Animal Hospital — Next-Generation Operations Platform",
+  "description": "Next-generation architecture, foundation slices, domain open items, conversion pipelines, and specifications for OMS v2.",
+  "language": "en",
+  "accentColor": "#2b7a9e",
+  "surfaceColor": "#f9f9f7",
+  "fontBody": "Open Sans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+  "codeCopy": true,
+  "pageToc": {
+    "placement": "rail",
+    "minHeadings": 2
+  },
+  "export": {
+    "enabled": true,
+    "scopes": [
+      "page",
+      "site"
+    ],
+    "showTagline": true,
+    "showDate": true
+  },
+  "share": {
+    "enabled": true,
+    "services": [
+      "copy",
+      "email"
+    ]
+  },
+  "welcome": {
+    "eyebrow": "WCAH OMS v2",
+    "headline": "Next-Gen Operations System",
+    "lead": "Greenfield modular architecture, foundation slice specifications, seed data conversion rules, and open design decisions for OMS v2.",
+    "pillars": [
+      "Foundation slice architecture & clean domain boundaries.",
+      "Open items on coverage needs, shift lengths, and clinical workflows.",
+      "Deterministic data conversion & seed migration pipelines."
+    ]
+  }
+}

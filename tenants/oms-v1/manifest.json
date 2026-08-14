@@ -1,0 +1,477 @@
+{
+  "default": "welcome",
+  "sections": [
+    {
+      "id": "welcome",
+      "title": "Welcome & Overview",
+      "summary": "Introduction to WCAH OMS v1 documentation.",
+      "file": "welcome.md"
+    },
+    {
+      "id": "project-guides",
+      "title": "Project Guides & Governance",
+      "summary": "Repository README, Claude developer instructions, agent guidelines, and handoffs.",
+      "sections": [
+        {
+          "id": "readme",
+          "title": "Repository README",
+          "summary": "Overview of OMS v1 full-stack architecture, backend FastAPI, frontend, and tests.",
+          "file": "README.md"
+        },
+        {
+          "id": "claude-guide",
+          "title": "Claude Developer Guide",
+          "summary": "Conventions, CLI commands, pytest commands, and development guidelines.",
+          "file": "CLAUDE.md"
+        },
+        {
+          "id": "agents-guide",
+          "title": "Agent Guidelines",
+          "summary": "Agent workflow rules, preamble formats, and context budget checkpoints.",
+          "file": "AGENTS.md"
+        },
+        {
+          "id": "handoff",
+          "title": "Session Handoff",
+          "summary": "Current sprint status, ongoing tasks, and component state.",
+          "file": "HANDOFF.md"
+        }
+      ]
+    },
+    {
+      "id": "architecture-domain",
+      "title": "Architecture, Domain Model & Contracts",
+      "summary": "Core domain models, API conformance contracts, and database architecture.",
+      "sections": [
+        {
+          "id": "domain-model",
+          "title": "OMS Domain Model",
+          "summary": "Entities, invariants, relationships, and lifecycle rules for hospital operations.",
+          "file": "docs/oms-domain-model.md"
+        },
+        {
+          "id": "conformance-contract",
+          "title": "Conformance Contract",
+          "summary": "Strict API schema and payload contracts between frontend and backend.",
+          "file": "conformance/contract.md"
+        },
+        {
+          "id": "decision-track-d",
+          "title": "Decision Record: Track D Rulings",
+          "summary": "Architectural rulings on schema consolidation and domain constraints.",
+          "file": "docs/decisions/2026-08-05-track-d-rulings.md"
+        },
+        {
+          "id": "review-sp2-kickoff",
+          "title": "TOM Week Review & SP2 Kickoff",
+          "summary": "Executive review, lessons learned from SP1, and SP2 objectives.",
+          "file": "docs/reviews/2026-08-07-tom-week-review-and-sp2-kickoff.md"
+        }
+      ]
+    },
+    {
+      "id": "specifications",
+      "title": "Technical Specifications & Design",
+      "summary": "System design specifications for document API, modular DB, taxonomy, and shift models.",
+      "sections": [
+        {
+          "id": "spec-document-api",
+          "title": "SP2A Document API Design",
+          "summary": "RESTful document export/import API endpoints, validation, and storage.",
+          "file": "docs/superpowers/specs/2026-08-09-sp2a-document-api-design.md"
+        },
+        {
+          "id": "spec-modular-db-schema-aug07",
+          "title": "Modular DB Schema Design (Aug 7)",
+          "summary": "Updated modular relational database schema definitions.",
+          "file": "docs/superpowers/specs/2026-08-07-oms-modular-database-schema-design.md"
+        },
+        {
+          "id": "spec-document-export-import",
+          "title": "Document Export & Import Design",
+          "summary": "XLSX and JSON document serialization, template mapping, and ingestion.",
+          "file": "docs/superpowers/specs/2026-08-06-oms-document-export-import-design.md"
+        },
+        {
+          "id": "spec-seed-workbook",
+          "title": "OMS Seed Workbook Design",
+          "summary": "Workbook parsing, validation pipeline, and fixture generation.",
+          "file": "docs/superpowers/specs/2026-08-05-oms-seed-workbook-design.md"
+        },
+        {
+          "id": "spec-modular-db-schema-aug05",
+          "title": "Modular DB Schema Design (Aug 5)",
+          "summary": "Initial modular database schema design for SQLite / Postgres.",
+          "file": "docs/superpowers/specs/2026-08-05-oms-modular-database-schema-design.md"
+        },
+        {
+          "id": "spec-nonstandard-shift-hours",
+          "title": "Non-Standard Shift Hours Design",
+          "summary": "Flexible shift duration, split shifts, and custom interval support.",
+          "file": "docs/superpowers/specs/2026-08-05-nonstandard-shift-hours-design.md"
+        },
+        {
+          "id": "spec-sp0-sp1-stabilize",
+          "title": "SP0/SP1 Stabilization & Conformance",
+          "summary": "Hardening core scheduler endpoints and conformance suite.",
+          "file": "docs/superpowers/specs/2026-08-04-sp0-sp1-stabilize-and-conformance-design.md"
+        },
+        {
+          "id": "spec-conformance-triage",
+          "title": "Conformance Triage Design",
+          "summary": "Resolving frontend/backend schema divergence and validation errors.",
+          "file": "docs/superpowers/specs/2026-08-04-conformance-triage-design.md"
+        },
+        {
+          "id": "spec-production-migration",
+          "title": "Production Migration Design",
+          "summary": "Migration plan for moving from prototype to production architecture.",
+          "file": "docs/superpowers/specs/2026-08-04-production-migration-design.md"
+        },
+        {
+          "id": "spec-approach-b-schema",
+          "title": "Approach B Schema Design",
+          "summary": "Relational entity modeling and table structures.",
+          "file": "docs/superpowers/specs/2026-08-03-oms-approach-b-schema-design.md"
+        },
+        {
+          "id": "spec-taxonomy-workflow",
+          "title": "Taxonomy & Workflow Design",
+          "summary": "Shift classification, skill profiles, and operational workflows.",
+          "file": "docs/superpowers/specs/2026-08-01-oms-taxonomy-workflow-design.md"
+        },
+        {
+          "id": "spec-configuration-team",
+          "title": "Configuration & Team Settings Design",
+          "summary": "Team roles, user access, and department configuration specifications.",
+          "file": "docs/superpowers/specs/2026-08-01-oms-configuration-team-design.md"
+        },
+        {
+          "id": "spec-oms-mockup",
+          "title": "OMS Mockup Design",
+          "summary": "UI layouts and interactive mockup specifications.",
+          "file": "docs/superpowers/specs/2026-07-31-oms-mockup-design.md"
+        },
+        {
+          "id": "spec-login-lock-screen",
+          "title": "Login & Lock Screen Design",
+          "summary": "PIN screen, terminal locking, and practitioner authentication.",
+          "file": "docs/superpowers/specs/2026-07-27-login-lock-screen-design.md"
+        },
+        {
+          "id": "spec-scheduler-mvp",
+          "title": "Scheduler MVP Design",
+          "summary": "Foundational scheduler specifications and algorithms.",
+          "file": "docs/superpowers/specs/2026-07-24-wcah-scheduler-mvp-design.md"
+        }
+      ]
+    },
+    {
+      "id": "plans",
+      "title": "Implementation Plans",
+      "summary": "Sprint and feature build plans across all OMS v1 milestones.",
+      "sections": [
+        {
+          "id": "plan-sp2a-document-api",
+          "title": "SP2A Document API Plan",
+          "summary": "Implementation tasks for FastAPI document import/export endpoints.",
+          "file": "docs/superpowers/plans/2026-08-09-sp2a-document-api.md"
+        },
+        {
+          "id": "plan-document-export-import",
+          "title": "Document Export/Import Plan",
+          "summary": "Building document templates, serializers, and parsing utilities.",
+          "file": "docs/superpowers/plans/2026-08-06-oms-document-export-import.md"
+        },
+        {
+          "id": "plan-seed-workbook",
+          "title": "Seed Workbook Implementation Plan",
+          "summary": "Ingesting seed data and populating relational entities.",
+          "file": "docs/superpowers/plans/2026-08-05-oms-seed-workbook.md"
+        },
+        {
+          "id": "plan-nonstandard-shift-hours",
+          "title": "Nonstandard Shift Hours Plan",
+          "summary": "Supporting irregular shift lengths and custom clinic operating hours.",
+          "file": "docs/superpowers/plans/2026-08-05-nonstandard-shift-hours.md"
+        },
+        {
+          "id": "plan-drop-home-department",
+          "title": "Drop Home Department Plan",
+          "summary": "Decoupling staff from rigid home departments into flexible skill sets.",
+          "file": "docs/superpowers/plans/2026-08-05-drop-home-department.md"
+        },
+        {
+          "id": "plan-sp0-sp1-stabilize",
+          "title": "SP0/SP1 Stabilize & Conformance Plan",
+          "summary": "Regression testing, schema alignment, and bug fixes.",
+          "file": "docs/superpowers/plans/2026-08-04-sp0-sp1-stabilize-and-conformance.md"
+        },
+        {
+          "id": "plan-conformance-triage",
+          "title": "Conformance Triage Plan",
+          "summary": "Systematic fix plan for API conformance mismatches.",
+          "file": "docs/superpowers/plans/2026-08-04-conformance-triage.md"
+        },
+        {
+          "id": "plan-conformance-tom-queue",
+          "title": "Conformance Triage TOM Queue Plan",
+          "summary": "Specific queue processing for TOM triage tickets.",
+          "file": "docs/superpowers/plans/2026-08-04-conformance-triage-tom-queue.md"
+        },
+        {
+          "id": "plan-approach-b-schema",
+          "title": "Approach B Schema Plan",
+          "summary": "Schema implementation and database migrations.",
+          "file": "docs/superpowers/plans/2026-08-03-oms-approach-b-schema.md"
+        },
+        {
+          "id": "plan-taxonomy-workflow",
+          "title": "Taxonomy Workflow Plan",
+          "summary": "Schedule views and taxonomy modeling tasks.",
+          "file": "docs/superpowers/plans/2026-08-01-oms-taxonomy-workflow.md"
+        },
+        {
+          "id": "plan-configuration-team",
+          "title": "Configuration Team Plan",
+          "summary": "Team and department configuration build steps.",
+          "file": "docs/superpowers/plans/2026-08-01-oms-configuration-team.md"
+        },
+        {
+          "id": "plan-login-lock-screen",
+          "title": "Login & Lock Screen Plan",
+          "summary": "Authentication implementation and PIN entry views.",
+          "file": "docs/superpowers/plans/2026-07-27-login-lock-screen.md"
+        },
+        {
+          "id": "plan-scheduler-mvp",
+          "title": "Scheduler MVP Plan",
+          "summary": "Initial MVP scheduler implementation plan.",
+          "file": "docs/superpowers/plans/2026-07-24-wcah-scheduler-mvp.md"
+        },
+        {
+          "id": "sdd-sp2a-task-1",
+          "title": "Task 1",
+          "summary": "Requirements brief and test report for Task 1.",
+          "sections": [
+            {
+              "id": "sdd-sp2a-task-1-brief",
+              "title": "Task 1 Brief",
+              "summary": "Specification brief for Task 1.",
+              "file": "superpowers/sdd/2026-08-09-sp2a-document-api/task-1-brief.md"
+            },
+            {
+              "id": "sdd-sp2a-task-1-report",
+              "title": "Task 1 Report",
+              "summary": "Execution verification report for Task 1.",
+              "file": "superpowers/sdd/2026-08-09-sp2a-document-api/task-1-report.md"
+            }
+          ]
+        },
+        {
+          "id": "sdd-sp2a-task-2",
+          "title": "Task 2",
+          "summary": "Requirements brief and test report for Task 2.",
+          "sections": [
+            {
+              "id": "sdd-sp2a-task-2-brief",
+              "title": "Task 2 Brief",
+              "summary": "Specification brief for Task 2.",
+              "file": "superpowers/sdd/2026-08-09-sp2a-document-api/task-2-brief.md"
+            },
+            {
+              "id": "sdd-sp2a-task-2-report",
+              "title": "Task 2 Report",
+              "summary": "Execution verification report for Task 2.",
+              "file": "superpowers/sdd/2026-08-09-sp2a-document-api/task-2-report.md"
+            }
+          ]
+        },
+        {
+          "id": "sdd-sp2a-task-3",
+          "title": "Task 3",
+          "summary": "Requirements brief and test report for Task 3.",
+          "sections": [
+            {
+              "id": "sdd-sp2a-task-3-brief",
+              "title": "Task 3 Brief",
+              "summary": "Specification brief for Task 3.",
+              "file": "superpowers/sdd/2026-08-09-sp2a-document-api/task-3-brief.md"
+            },
+            {
+              "id": "sdd-sp2a-task-3-report",
+              "title": "Task 3 Report",
+              "summary": "Execution verification report for Task 3.",
+              "file": "superpowers/sdd/2026-08-09-sp2a-document-api/task-3-report.md"
+            }
+          ]
+        },
+        {
+          "id": "sdd-sp2a-task-4",
+          "title": "Task 4",
+          "summary": "Requirements brief and test report for Task 4.",
+          "sections": [
+            {
+              "id": "sdd-sp2a-task-4-brief",
+              "title": "Task 4 Brief",
+              "summary": "Specification brief for Task 4.",
+              "file": "superpowers/sdd/2026-08-09-sp2a-document-api/task-4-brief.md"
+            },
+            {
+              "id": "sdd-sp2a-task-4-report",
+              "title": "Task 4 Report",
+              "summary": "Execution verification report for Task 4.",
+              "file": "superpowers/sdd/2026-08-09-sp2a-document-api/task-4-report.md"
+            }
+          ]
+        },
+        {
+          "id": "sdd-sp2a-task-5",
+          "title": "Task 5",
+          "summary": "Requirements brief and test report for Task 5.",
+          "sections": [
+            {
+              "id": "sdd-sp2a-task-5-brief",
+              "title": "Task 5 Brief",
+              "summary": "Specification brief for Task 5.",
+              "file": "superpowers/sdd/2026-08-09-sp2a-document-api/task-5-brief.md"
+            },
+            {
+              "id": "sdd-sp2a-task-5-report",
+              "title": "Task 5 Report",
+              "summary": "Execution verification report for Task 5.",
+              "file": "superpowers/sdd/2026-08-09-sp2a-document-api/task-5-report.md"
+            }
+          ]
+        },
+        {
+          "id": "sdd-sp2a-task-6",
+          "title": "Task 6",
+          "summary": "Requirements brief and test report for Task 6.",
+          "sections": [
+            {
+              "id": "sdd-sp2a-task-6-brief",
+              "title": "Task 6 Brief",
+              "summary": "Specification brief for Task 6.",
+              "file": "superpowers/sdd/2026-08-09-sp2a-document-api/task-6-brief.md"
+            },
+            {
+              "id": "sdd-sp2a-task-6-report",
+              "title": "Task 6 Report",
+              "summary": "Execution verification report for Task 6.",
+              "file": "superpowers/sdd/2026-08-09-sp2a-document-api/task-6-report.md"
+            }
+          ]
+        },
+        {
+          "id": "sdd-sp2a-task-7",
+          "title": "Task 7",
+          "summary": "Requirements brief and test report for Task 7.",
+          "sections": [
+            {
+              "id": "sdd-sp2a-task-7-brief",
+              "title": "Task 7 Brief",
+              "summary": "Specification brief for Task 7.",
+              "file": "superpowers/sdd/2026-08-09-sp2a-document-api/task-7-brief.md"
+            },
+            {
+              "id": "sdd-sp2a-task-7-report",
+              "title": "Task 7 Report",
+              "summary": "Execution verification report for Task 7.",
+              "file": "superpowers/sdd/2026-08-09-sp2a-document-api/task-7-report.md"
+            }
+          ]
+        },
+        {
+          "id": "sdd-sp2a-task-8",
+          "title": "Task 8",
+          "summary": "Requirements brief and test report for Task 8.",
+          "sections": [
+            {
+              "id": "sdd-sp2a-task-8-brief",
+              "title": "Task 8 Brief",
+              "summary": "Specification brief for Task 8.",
+              "file": "superpowers/sdd/2026-08-09-sp2a-document-api/task-8-brief.md"
+            },
+            {
+              "id": "sdd-sp2a-task-8-report",
+              "title": "Task 8 Report",
+              "summary": "Execution verification report for Task 8.",
+              "file": "superpowers/sdd/2026-08-09-sp2a-document-api/task-8-report.md"
+            }
+          ]
+        },
+        {
+          "id": "sdd-sp2a-task-9",
+          "title": "Task 9",
+          "summary": "Requirements brief and test report for Task 9.",
+          "sections": [
+            {
+              "id": "sdd-sp2a-task-9-brief",
+              "title": "Task 9 Brief",
+              "summary": "Specification brief for Task 9.",
+              "file": "superpowers/sdd/2026-08-09-sp2a-document-api/task-9-brief.md"
+            },
+            {
+              "id": "sdd-sp2a-task-9-report",
+              "title": "Task 9 Report",
+              "summary": "Execution verification report for Task 9.",
+              "file": "superpowers/sdd/2026-08-09-sp2a-document-api/task-9-report.md"
+            }
+          ]
+        },
+        {
+          "id": "sdd-sp2a-task-10",
+          "title": "Task 10",
+          "summary": "Requirements brief and test report for Task 10.",
+          "sections": [
+            {
+              "id": "sdd-sp2a-task-10-brief",
+              "title": "Task 10 Brief",
+              "summary": "Specification brief for Task 10.",
+              "file": "superpowers/sdd/2026-08-09-sp2a-document-api/task-10-brief.md"
+            },
+            {
+              "id": "sdd-sp2a-task-10-report",
+              "title": "Task 10 Report",
+              "summary": "Execution verification report for Task 10.",
+              "file": "superpowers/sdd/2026-08-09-sp2a-document-api/task-10-report.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sdd-sp2a",
+      "title": "SDD: SP2A Document API Tasks & Reports",
+      "summary": "Spec-Driven Development execution logs and verification reports for SP2A Document API.",
+      "sections": [
+        {
+          "id": "sdd-sp2a-progress",
+          "title": "SP2A Progress Tracker",
+          "summary": "Task checklist and sprint status for Document API development.",
+          "file": "superpowers/sdd/2026-08-09-sp2a-document-api/progress.md"
+        },
+        {
+          "id": "sdd-sp2a-final-fix-report",
+          "title": "SP2A Final Fix Report",
+          "summary": "Verification fixes, end-to-end testing, and audit report.",
+          "file": "superpowers/sdd/2026-08-09-sp2a-document-api/task-final-fix-report.md"
+        }
+      ]
+    },
+    {
+      "id": "legacy-ref",
+      "title": "Legacy Reference",
+      "summary": "Historical code and prototype notes.",
+      "sections": [
+        {
+          "id": "legacy-readme",
+          "title": "Legacy System Overview",
+          "summary": "Historical reference notes from early prototype.",
+          "file": "src/legacy/README.md"
+        }
+      ]
+    }
+  ]
+}

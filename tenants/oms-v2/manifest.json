@@ -1,0 +1,311 @@
+{
+  "default": "welcome",
+  "sections": [
+    {
+      "id": "welcome",
+      "title": "Welcome & Overview",
+      "summary": "Introduction to WCAH OMS v2 (Next-Gen) documentation.",
+      "file": "welcome.md"
+    },
+    {
+      "id": "project-guides",
+      "title": "Project Guides & Standards",
+      "summary": "Repository README, Claude developer instructions, agent guidelines, and docs index.",
+      "sections": [
+        {
+          "id": "readme",
+          "title": "Repository README",
+          "summary": "Overview of OMS v2 next-generation architecture and tooling.",
+          "file": "README.md"
+        },
+        {
+          "id": "docs-index",
+          "title": "Documentation Index",
+          "summary": "Catalog and index of all design documents in oms-new.",
+          "file": "docs/README.md"
+        },
+        {
+          "id": "claude-guide",
+          "title": "Claude Developer Guide",
+          "summary": "Development instructions, test commands, and quality requirements.",
+          "file": "CLAUDE.md"
+        },
+        {
+          "id": "agents-guide",
+          "title": "Agent Guidelines",
+          "summary": "Preamble requirements, context budgeting, and session insights rules.",
+          "file": "AGENTS.md"
+        },
+        {
+          "id": "handoff",
+          "title": "Session Handoff",
+          "summary": "Sprint state and ongoing work for OMS v2.",
+          "file": "HANDOFF.md"
+        }
+      ]
+    },
+    {
+      "id": "domain-architecture",
+      "title": "Domain Model & Architectural Decisions",
+      "summary": "Domain modeling, track D rulings, and milestone review records.",
+      "sections": [
+        {
+          "id": "domain-model",
+          "title": "OMS Domain Model",
+          "summary": "Core domain entities, invariants, relationships, and operational rules.",
+          "file": "docs/oms-domain-model.md"
+        },
+        {
+          "id": "decision-track-d",
+          "title": "Decision Record: Track D Rulings",
+          "summary": "Architectural rulings on schema consolidation and constraints.",
+          "file": "docs/decisions/2026-08-05-track-d-rulings.md"
+        },
+        {
+          "id": "review-sp2-kickoff",
+          "title": "TOM Week Review & SP2 Kickoff",
+          "summary": "Comprehensive retrospective and roadmap for SP2 foundation.",
+          "file": "docs/reviews/2026-08-07-tom-week-review-and-sp2-kickoff.md"
+        }
+      ]
+    },
+    {
+      "id": "open-items",
+      "title": "Open Design Items & RFDs",
+      "summary": "Active design discussions, open questions, and domain trade-offs.",
+      "sections": [
+        {
+          "id": "open-coverage-needs",
+          "title": "Coverage Needs Model",
+          "summary": "Modeling required staffing coverage by role, department, and time slot.",
+          "file": "docs/open-items/2026-08-11-coverage-needs-model.md"
+        },
+        {
+          "id": "open-default-shift-length",
+          "title": "Practice Default Shift Length",
+          "summary": "Standardizing default shift lengths across practice locations.",
+          "file": "docs/open-items/2026-08-13-practice-default-shift-length.md"
+        }
+      ]
+    },
+    {
+      "id": "specifications",
+      "title": "Technical Specifications & Design",
+      "summary": "System design specs for foundation slice, document API, modular DB, and taxonomy.",
+      "sections": [
+        {
+          "id": "spec-foundation-slice",
+          "title": "Foundation Slice Design (Aug 11)",
+          "summary": "Next-gen foundation architecture, schemas, and service boundaries.",
+          "file": "docs/superpowers/specs/2026-08-11-oms-new-foundation-slice-design.md"
+        },
+        {
+          "id": "spec-document-api",
+          "title": "SP2A Document API Design",
+          "summary": "Document export and import API endpoints and validation.",
+          "file": "docs/superpowers/specs/2026-08-09-sp2a-document-api-design.md"
+        },
+        {
+          "id": "spec-modular-db-schema-aug07",
+          "title": "Modular DB Schema Design (Aug 7)",
+          "summary": "Relational schema definitions and entity relationship modeling.",
+          "file": "docs/superpowers/specs/2026-08-07-oms-modular-database-schema-design.md"
+        },
+        {
+          "id": "spec-document-export-import",
+          "title": "Document Export & Import Design",
+          "summary": "XLSX and JSON serialization pipeline specifications.",
+          "file": "docs/superpowers/specs/2026-08-06-oms-document-export-import-design.md"
+        },
+        {
+          "id": "spec-seed-workbook",
+          "title": "OMS Seed Workbook Design",
+          "summary": "Workbook parsing and ingestion pipeline.",
+          "file": "docs/superpowers/specs/2026-08-05-oms-seed-workbook-design.md"
+        },
+        {
+          "id": "spec-modular-db-schema-aug05",
+          "title": "Modular DB Schema Design (Aug 5)",
+          "summary": "Initial modular database design.",
+          "file": "docs/superpowers/specs/2026-08-05-oms-modular-database-schema-design.md"
+        },
+        {
+          "id": "spec-nonstandard-shift-hours",
+          "title": "Non-Standard Shift Hours Design",
+          "summary": "Split shifts and custom operating interval support.",
+          "file": "docs/superpowers/specs/2026-08-05-nonstandard-shift-hours-design.md"
+        },
+        {
+          "id": "spec-sp0-sp1-stabilize",
+          "title": "SP0/SP1 Stabilization & Conformance",
+          "summary": "Hardening core scheduler endpoints and test suites.",
+          "file": "docs/superpowers/specs/2026-08-04-sp0-sp1-stabilize-and-conformance-design.md"
+        },
+        {
+          "id": "spec-conformance-triage",
+          "title": "Conformance Triage Design",
+          "summary": "Resolving API schema validation mismatches.",
+          "file": "docs/superpowers/specs/2026-08-04-conformance-triage-design.md"
+        },
+        {
+          "id": "spec-production-migration",
+          "title": "Production Migration Design",
+          "summary": "Production database migration plan.",
+          "file": "docs/superpowers/specs/2026-08-04-production-migration-design.md"
+        },
+        {
+          "id": "spec-approach-b-schema",
+          "title": "Approach B Schema Design",
+          "summary": "Relational entity schema modeling.",
+          "file": "docs/superpowers/specs/2026-08-03-oms-approach-b-schema-design.md"
+        },
+        {
+          "id": "spec-taxonomy-workflow",
+          "title": "Taxonomy & Workflow Design",
+          "summary": "Shift classification, skill profiles, and calendar views.",
+          "file": "docs/superpowers/specs/2026-08-01-oms-taxonomy-workflow-design.md"
+        },
+        {
+          "id": "spec-configuration-team",
+          "title": "Configuration & Team Settings Design",
+          "summary": "Team roles, user access, and department configuration.",
+          "file": "docs/superpowers/specs/2026-08-01-oms-configuration-team-design.md"
+        },
+        {
+          "id": "spec-oms-mockup",
+          "title": "OMS Mockup Design",
+          "summary": "Interactive UI mockup specifications.",
+          "file": "docs/superpowers/specs/2026-07-31-oms-mockup-design.md"
+        },
+        {
+          "id": "spec-login-lock-screen",
+          "title": "Login & Lock Screen Design",
+          "summary": "PIN screen, terminal locking, and practitioner authentication.",
+          "file": "docs/superpowers/specs/2026-07-27-login-lock-screen-design.md"
+        },
+        {
+          "id": "spec-scheduler-mvp",
+          "title": "Scheduler MVP Design",
+          "summary": "Foundational scheduler specifications and algorithms.",
+          "file": "docs/superpowers/specs/2026-07-24-wcah-scheduler-mvp-design.md"
+        }
+      ]
+    },
+    {
+      "id": "plans",
+      "title": "Implementation Plans",
+      "summary": "Build plans and execution roadmaps across all OMS iterations.",
+      "sections": [
+        {
+          "id": "plan-foundation-slice",
+          "title": "Foundation Slice Plan (Aug 11)",
+          "summary": "Execution plan for next-gen OMS foundation slice.",
+          "file": "docs/superpowers/plans/2026-08-11-oms-new-foundation-slice.md"
+        },
+        {
+          "id": "plan-sp2a-document-api",
+          "title": "SP2A Document API Plan",
+          "summary": "Implementation tasks for document import/export endpoints.",
+          "file": "docs/superpowers/plans/2026-08-09-sp2a-document-api.md"
+        },
+        {
+          "id": "plan-document-export-import",
+          "title": "Document Export/Import Plan",
+          "summary": "Building document templates, serializers, and parsing utilities.",
+          "file": "docs/superpowers/plans/2026-08-06-oms-document-export-import.md"
+        },
+        {
+          "id": "plan-seed-workbook",
+          "title": "Seed Workbook Implementation Plan",
+          "summary": "Ingesting seed data and populating relational entities.",
+          "file": "docs/superpowers/plans/2026-08-05-oms-seed-workbook.md"
+        },
+        {
+          "id": "plan-nonstandard-shift-hours",
+          "title": "Nonstandard Shift Hours Plan",
+          "summary": "Supporting irregular shift lengths and custom clinic operating hours.",
+          "file": "docs/superpowers/plans/2026-08-05-nonstandard-shift-hours.md"
+        },
+        {
+          "id": "plan-drop-home-department",
+          "title": "Drop Home Department Plan",
+          "summary": "Decoupling staff from rigid home departments into flexible skill sets.",
+          "file": "docs/superpowers/plans/2026-08-05-drop-home-department.md"
+        },
+        {
+          "id": "plan-sp0-sp1-stabilize",
+          "title": "SP0/SP1 Stabilize & Conformance Plan",
+          "summary": "Regression testing, schema alignment, and bug fixes.",
+          "file": "docs/superpowers/plans/2026-08-04-sp0-sp1-stabilize-and-conformance.md"
+        },
+        {
+          "id": "plan-conformance-triage",
+          "title": "Conformance Triage Plan",
+          "summary": "Systematic fix plan for API conformance mismatches.",
+          "file": "docs/superpowers/plans/2026-08-04-conformance-triage.md"
+        },
+        {
+          "id": "plan-conformance-tom-queue",
+          "title": "Conformance Triage TOM Queue Plan",
+          "summary": "Specific queue processing for TOM triage tickets.",
+          "file": "docs/superpowers/plans/2026-08-04-conformance-triage-tom-queue.md"
+        },
+        {
+          "id": "plan-approach-b-schema",
+          "title": "Approach B Schema Plan",
+          "summary": "Schema implementation and database migrations.",
+          "file": "docs/superpowers/plans/2026-08-03-oms-approach-b-schema.md"
+        },
+        {
+          "id": "plan-taxonomy-workflow",
+          "title": "Taxonomy Workflow Plan",
+          "summary": "Schedule views and taxonomy modeling tasks.",
+          "file": "docs/superpowers/plans/2026-08-01-oms-taxonomy-workflow.md"
+        },
+        {
+          "id": "plan-configuration-team",
+          "title": "Configuration Team Plan",
+          "summary": "Team and department configuration build steps.",
+          "file": "docs/superpowers/plans/2026-08-01-oms-configuration-team.md"
+        },
+        {
+          "id": "plan-login-lock-screen",
+          "title": "Login & Lock Screen Plan",
+          "summary": "Authentication implementation and PIN entry views.",
+          "file": "docs/superpowers/plans/2026-07-27-login-lock-screen.md"
+        },
+        {
+          "id": "plan-scheduler-mvp",
+          "title": "Scheduler MVP Plan",
+          "summary": "Initial MVP scheduler implementation plan.",
+          "file": "docs/superpowers/plans/2026-07-24-wcah-scheduler-mvp.md"
+        }
+      ]
+    },
+    {
+      "id": "seed-data-tools",
+      "title": "Seed Data Conversion & Dev Tools",
+      "summary": "Master data conversion rules, source workbook guides, and dev fixtures.",
+      "sections": [
+        {
+          "id": "seed-conversion-rules",
+          "title": "Seed Data Conversion Rules",
+          "summary": "Rules and mapping specs for converting Excel data into relational models.",
+          "file": "seed/CONVERSION.md"
+        },
+        {
+          "id": "seed-source-guide",
+          "title": "Source Workbook Guide",
+          "summary": "Documentation on source workbooks and input formats.",
+          "file": "seed/source/README.md"
+        },
+        {
+          "id": "tool-fixture-bad-plan",
+          "title": "Dev Tool: Bad Plan Fixture",
+          "summary": "Test fixture documentation for validation error handling.",
+          "file": "tools/dev/_fixture_bad_plan.md"
+        }
+      ]
+    }
+  ]
+}

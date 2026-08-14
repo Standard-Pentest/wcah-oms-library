@@ -1,0 +1,30 @@
+{
+  "name": "wcah-docs-library",
+  "version": "1.0.0",
+  "description": "WCAH Operations Management System (OMS) Documentation Library & Hall of Records",
+  "type": "module",
+  "scripts": {
+    "build": "pagenary build --all && node scripts/build-portal.js",
+    "build:wcah": "pagenary build wcah",
+    "build:v0": "pagenary build oms-v0",
+    "build:v1": "pagenary build oms-v1",
+    "build:v2": "pagenary build oms-v2",
+    "dev": "pagenary build --all && node scripts/build-portal.js && pagenary serve",
+    "portal": "pagenary build --all && node scripts/build-portal.js && pagenary serve",
+    "start": "pagenary serve",
+    "serve": "pagenary serve",
+    "lint": "pagenary lint",
+    "clean": "pagenary clean"
+  },
+  "keywords": [
+    "wcah",
+    "oms",
+    "documentation",
+    "pagenary"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@pagenary/publisher": "^2026.8.2"
+  }
+}

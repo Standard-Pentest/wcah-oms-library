@@ -1,0 +1,578 @@
+{
+  "default": "welcome",
+  "sections": [
+    {
+      "id": "welcome",
+      "title": "Welcome & Overview",
+      "summary": "Introduction to WCAH OMS v0 (Scheduler) documentation.",
+      "file": "welcome.md"
+    },
+    {
+      "id": "project-overview",
+      "title": "Project Guides & Reference",
+      "summary": "Repository README, Claude developer instructions, and handoff guides.",
+      "sections": [
+        {
+          "id": "readme",
+          "title": "Repository README",
+          "summary": "Overview of scheduler codebase, setup, scripts, and dev server.",
+          "file": "README.md"
+        },
+        {
+          "id": "claude-guide",
+          "title": "Claude Developer Instructions",
+          "summary": "Build, test, lint commands, and architectural rules.",
+          "file": "CLAUDE.md"
+        },
+        {
+          "id": "handoff",
+          "title": "Session Handoff",
+          "summary": "Context and current development state for OMS v0.",
+          "file": "HANDOFF.md"
+        }
+      ]
+    },
+    {
+      "id": "specifications",
+      "title": "Specifications & System Design",
+      "summary": "Technical design specifications and architectural blueprints.",
+      "sections": [
+        {
+          "id": "spec-scheduling-epic",
+          "title": "Scheduling Epic Specification",
+          "summary": "High-level functional and domain specifications for hospital scheduling.",
+          "file": "scheduling-epic-spec.md"
+        },
+        {
+          "id": "spec-scheduler-mvp",
+          "title": "Scheduler MVP Design",
+          "summary": "Architecture, data structures, and UI layout for initial scheduler MVP.",
+          "file": "docs/superpowers/specs/2026-07-24-wcah-scheduler-mvp-design.md"
+        },
+        {
+          "id": "spec-login-lock-screen",
+          "title": "Login & Lock Screen Design",
+          "summary": "Authentication, pin-lock screen, and practitioner session switching.",
+          "file": "docs/superpowers/specs/2026-07-27-login-lock-screen-design.md"
+        },
+        {
+          "id": "spec-oms-mockup",
+          "title": "OMS Mockup Design",
+          "summary": "Comprehensive UI mockups and workflow wireframes.",
+          "file": "docs/superpowers/specs/2026-07-31-oms-mockup-design.md"
+        },
+        {
+          "id": "spec-configuration-team",
+          "title": "Configuration & Team Settings Design",
+          "summary": "Department, role, and staff configuration management design.",
+          "file": "docs/superpowers/specs/2026-08-01-oms-configuration-team-design.md"
+        },
+        {
+          "id": "spec-taxonomy-workflow",
+          "title": "Taxonomy & Workflow Design",
+          "summary": "Shift types, skill requirements, and room scheduling taxonomy.",
+          "file": "docs/superpowers/specs/2026-08-01-oms-taxonomy-workflow-design.md"
+        },
+        {
+          "id": "spec-approach-b-schema",
+          "title": "Approach B Schema Design",
+          "summary": "Database schema modeling and relational entity relationships.",
+          "file": "docs/superpowers/specs/2026-08-03-oms-approach-b-schema-design.md"
+        },
+        {
+          "id": "spec-production-migration",
+          "title": "Production Migration Design",
+          "summary": "Database migration and production deployment strategy.",
+          "file": "docs/superpowers/specs/2026-08-04-production-migration-design.md"
+        }
+      ]
+    },
+    {
+      "id": "plans",
+      "title": "Implementation Plans",
+      "summary": "Step-by-step implementation plans and verification checklists.",
+      "sections": [
+        {
+          "id": "plan-scheduler-mvp",
+          "title": "Scheduler MVP Implementation Plan",
+          "summary": "Implementation phases and done-criteria for scheduler MVP.",
+          "file": "docs/superpowers/plans/2026-07-24-wcah-scheduler-mvp.md"
+        },
+        {
+          "id": "plan-login-lock-screen",
+          "title": "Login & Lock Screen Implementation Plan",
+          "summary": "Implementation tasks for pin-lock authentication screen.",
+          "file": "docs/superpowers/plans/2026-07-27-login-lock-screen.md"
+        },
+        {
+          "id": "plan-configuration-team",
+          "title": "Configuration & Team Implementation Plan",
+          "summary": "Execution plan for team structure and settings management.",
+          "file": "docs/superpowers/plans/2026-08-01-oms-configuration-team.md"
+        },
+        {
+          "id": "plan-taxonomy-workflow",
+          "title": "Taxonomy & Workflow Implementation Plan",
+          "summary": "Implementation tasks for hospital taxonomy and schedule views.",
+          "file": "docs/superpowers/plans/2026-08-01-oms-taxonomy-workflow.md"
+        },
+        {
+          "id": "plan-approach-b-schema",
+          "title": "Approach B Schema Implementation Plan",
+          "summary": "Schema implementation, migrations, and model definitions.",
+          "file": "docs/superpowers/plans/2026-08-03-oms-approach-b-schema.md"
+        }
+      ]
+    },
+    {
+      "id": "sdd-reports",
+      "title": "SDD Task Briefs & Reports",
+      "summary": "Task-by-task execution briefs and completion reports from Spec-Driven Development.",
+      "sections": [
+        {
+          "id": "sdd-progress",
+          "title": "SDD Overall Progress",
+          "summary": "Sprint progress tracker and completed tasks summary.",
+          "file": "superpowers/sdd/progress.md"
+        },
+        {
+          "id": "sdd-final-fix-report",
+          "title": "Final Fix Report",
+          "summary": "Bug triage and final verification fix report.",
+          "file": "superpowers/sdd/final-fix-report.md"
+        },
+        {
+          "id": "sdd-task-1",
+          "title": "Task 1",
+          "summary": "Brief and verification report for Task 1.",
+          "sections": [
+            {
+              "id": "sdd-task-1-brief",
+              "title": "Task 1 Brief",
+              "summary": "Specification and requirements brief for Task 1.",
+              "file": "superpowers/sdd/task-1-brief.md"
+            },
+            {
+              "id": "sdd-task-1-report",
+              "title": "Task 1 Report",
+              "summary": "Execution summary, tests passed, and verification for Task 1.",
+              "file": "superpowers/sdd/task-1-report.md"
+            }
+          ]
+        },
+        {
+          "id": "sdd-task-2",
+          "title": "Task 2",
+          "summary": "Brief and verification report for Task 2.",
+          "sections": [
+            {
+              "id": "sdd-task-2-brief",
+              "title": "Task 2 Brief",
+              "summary": "Specification and requirements brief for Task 2.",
+              "file": "superpowers/sdd/task-2-brief.md"
+            },
+            {
+              "id": "sdd-task-2-report",
+              "title": "Task 2 Report",
+              "summary": "Execution summary, tests passed, and verification for Task 2.",
+              "file": "superpowers/sdd/task-2-report.md"
+            }
+          ]
+        },
+        {
+          "id": "sdd-task-3",
+          "title": "Task 3",
+          "summary": "Brief and verification report for Task 3.",
+          "sections": [
+            {
+              "id": "sdd-task-3-brief",
+              "title": "Task 3 Brief",
+              "summary": "Specification and requirements brief for Task 3.",
+              "file": "superpowers/sdd/task-3-brief.md"
+            },
+            {
+              "id": "sdd-task-3-report",
+              "title": "Task 3 Report",
+              "summary": "Execution summary, tests passed, and verification for Task 3.",
+              "file": "superpowers/sdd/task-3-report.md"
+            }
+          ]
+        },
+        {
+          "id": "sdd-task-4",
+          "title": "Task 4",
+          "summary": "Brief and verification report for Task 4.",
+          "sections": [
+            {
+              "id": "sdd-task-4-brief",
+              "title": "Task 4 Brief",
+              "summary": "Specification and requirements brief for Task 4.",
+              "file": "superpowers/sdd/task-4-brief.md"
+            },
+            {
+              "id": "sdd-task-4-report",
+              "title": "Task 4 Report",
+              "summary": "Execution summary, tests passed, and verification for Task 4.",
+              "file": "superpowers/sdd/task-4-report.md"
+            }
+          ]
+        },
+        {
+          "id": "sdd-task-5",
+          "title": "Task 5",
+          "summary": "Brief and verification report for Task 5.",
+          "sections": [
+            {
+              "id": "sdd-task-5-brief",
+              "title": "Task 5 Brief",
+              "summary": "Specification and requirements brief for Task 5.",
+              "file": "superpowers/sdd/task-5-brief.md"
+            },
+            {
+              "id": "sdd-task-5-report",
+              "title": "Task 5 Report",
+              "summary": "Execution summary, tests passed, and verification for Task 5.",
+              "file": "superpowers/sdd/task-5-report.md"
+            }
+          ]
+        },
+        {
+          "id": "sdd-task-6",
+          "title": "Task 6",
+          "summary": "Brief and verification report for Task 6.",
+          "sections": [
+            {
+              "id": "sdd-task-6-brief",
+              "title": "Task 6 Brief",
+              "summary": "Specification and requirements brief for Task 6.",
+              "file": "superpowers/sdd/task-6-brief.md"
+            },
+            {
+              "id": "sdd-task-6-report",
+              "title": "Task 6 Report",
+              "summary": "Execution summary, tests passed, and verification for Task 6.",
+              "file": "superpowers/sdd/task-6-report.md"
+            }
+          ]
+        },
+        {
+          "id": "sdd-task-7",
+          "title": "Task 7",
+          "summary": "Brief and verification report for Task 7.",
+          "sections": [
+            {
+              "id": "sdd-task-7-brief",
+              "title": "Task 7 Brief",
+              "summary": "Specification and requirements brief for Task 7.",
+              "file": "superpowers/sdd/task-7-brief.md"
+            },
+            {
+              "id": "sdd-task-7-report",
+              "title": "Task 7 Report",
+              "summary": "Execution summary, tests passed, and verification for Task 7.",
+              "file": "superpowers/sdd/task-7-report.md"
+            }
+          ]
+        },
+        {
+          "id": "sdd-task-8",
+          "title": "Task 8",
+          "summary": "Brief and verification report for Task 8.",
+          "sections": [
+            {
+              "id": "sdd-task-8-brief",
+              "title": "Task 8 Brief",
+              "summary": "Specification and requirements brief for Task 8.",
+              "file": "superpowers/sdd/task-8-brief.md"
+            },
+            {
+              "id": "sdd-task-8-report",
+              "title": "Task 8 Report",
+              "summary": "Execution summary, tests passed, and verification for Task 8.",
+              "file": "superpowers/sdd/task-8-report.md"
+            }
+          ]
+        },
+        {
+          "id": "sdd-task-9",
+          "title": "Task 9",
+          "summary": "Brief and verification report for Task 9.",
+          "sections": [
+            {
+              "id": "sdd-task-9-brief",
+              "title": "Task 9 Brief",
+              "summary": "Specification and requirements brief for Task 9.",
+              "file": "superpowers/sdd/task-9-brief.md"
+            },
+            {
+              "id": "sdd-task-9-report",
+              "title": "Task 9 Report",
+              "summary": "Execution summary, tests passed, and verification for Task 9.",
+              "file": "superpowers/sdd/task-9-report.md"
+            }
+          ]
+        },
+        {
+          "id": "sdd-task-10",
+          "title": "Task 10",
+          "summary": "Brief and verification report for Task 10.",
+          "sections": [
+            {
+              "id": "sdd-task-10-brief",
+              "title": "Task 10 Brief",
+              "summary": "Specification and requirements brief for Task 10.",
+              "file": "superpowers/sdd/task-10-brief.md"
+            },
+            {
+              "id": "sdd-task-10-report",
+              "title": "Task 10 Report",
+              "summary": "Execution summary, tests passed, and verification for Task 10.",
+              "file": "superpowers/sdd/task-10-report.md"
+            }
+          ]
+        },
+        {
+          "id": "sdd-task-11",
+          "title": "Task 11",
+          "summary": "Brief and verification report for Task 11.",
+          "sections": [
+            {
+              "id": "sdd-task-11-brief",
+              "title": "Task 11 Brief",
+              "summary": "Specification and requirements brief for Task 11.",
+              "file": "superpowers/sdd/task-11-brief.md"
+            },
+            {
+              "id": "sdd-task-11-report",
+              "title": "Task 11 Report",
+              "summary": "Execution summary, tests passed, and verification for Task 11.",
+              "file": "superpowers/sdd/task-11-report.md"
+            }
+          ]
+        },
+        {
+          "id": "sdd-task-12",
+          "title": "Task 12",
+          "summary": "Brief and verification report for Task 12.",
+          "sections": [
+            {
+              "id": "sdd-task-12-brief",
+              "title": "Task 12 Brief",
+              "summary": "Specification and requirements brief for Task 12.",
+              "file": "superpowers/sdd/task-12-brief.md"
+            },
+            {
+              "id": "sdd-task-12-report",
+              "title": "Task 12 Report",
+              "summary": "Execution summary, tests passed, and verification for Task 12.",
+              "file": "superpowers/sdd/task-12-report.md"
+            }
+          ]
+        },
+        {
+          "id": "sdd-task-13",
+          "title": "Task 13",
+          "summary": "Brief and verification report for Task 13.",
+          "sections": [
+            {
+              "id": "sdd-task-13-brief",
+              "title": "Task 13 Brief",
+              "summary": "Specification and requirements brief for Task 13.",
+              "file": "superpowers/sdd/task-13-brief.md"
+            },
+            {
+              "id": "sdd-task-13-report",
+              "title": "Task 13 Report",
+              "summary": "Execution summary, tests passed, and verification for Task 13.",
+              "file": "superpowers/sdd/task-13-report.md"
+            }
+          ]
+        },
+        {
+          "id": "sdd-task-14",
+          "title": "Task 14",
+          "summary": "Brief and verification report for Task 14.",
+          "sections": [
+            {
+              "id": "sdd-task-14-brief",
+              "title": "Task 14 Brief",
+              "summary": "Specification and requirements brief for Task 14.",
+              "file": "superpowers/sdd/task-14-brief.md"
+            },
+            {
+              "id": "sdd-task-14-report",
+              "title": "Task 14 Report",
+              "summary": "Execution summary, tests passed, and verification for Task 14.",
+              "file": "superpowers/sdd/task-14-report.md"
+            }
+          ]
+        },
+        {
+          "id": "sdd-task-15",
+          "title": "Task 15",
+          "summary": "Brief and verification report for Task 15.",
+          "sections": [
+            {
+              "id": "sdd-task-15-brief",
+              "title": "Task 15 Brief",
+              "summary": "Specification and requirements brief for Task 15.",
+              "file": "superpowers/sdd/task-15-brief.md"
+            },
+            {
+              "id": "sdd-task-15-report",
+              "title": "Task 15 Report",
+              "summary": "Execution summary, tests passed, and verification for Task 15.",
+              "file": "superpowers/sdd/task-15-report.md"
+            }
+          ]
+        },
+        {
+          "id": "sdd-task-16",
+          "title": "Task 16",
+          "summary": "Brief and verification report for Task 16.",
+          "sections": [
+            {
+              "id": "sdd-task-16-brief",
+              "title": "Task 16 Brief",
+              "summary": "Specification and requirements brief for Task 16.",
+              "file": "superpowers/sdd/task-16-brief.md"
+            },
+            {
+              "id": "sdd-task-16-report",
+              "title": "Task 16 Report",
+              "summary": "Execution summary, tests passed, and verification for Task 16.",
+              "file": "superpowers/sdd/task-16-report.md"
+            }
+          ]
+        },
+        {
+          "id": "sdd-task-17",
+          "title": "Task 17",
+          "summary": "Brief and verification report for Task 17.",
+          "sections": [
+            {
+              "id": "sdd-task-17-brief",
+              "title": "Task 17 Brief",
+              "summary": "Specification and requirements brief for Task 17.",
+              "file": "superpowers/sdd/task-17-brief.md"
+            },
+            {
+              "id": "sdd-task-17-report",
+              "title": "Task 17 Report",
+              "summary": "Execution summary, tests passed, and verification for Task 17.",
+              "file": "superpowers/sdd/task-17-report.md"
+            }
+          ]
+        },
+        {
+          "id": "sdd-task-18",
+          "title": "Task 18",
+          "summary": "Brief and verification report for Task 18.",
+          "sections": [
+            {
+              "id": "sdd-task-18-brief",
+              "title": "Task 18 Brief",
+              "summary": "Specification and requirements brief for Task 18.",
+              "file": "superpowers/sdd/task-18-brief.md"
+            },
+            {
+              "id": "sdd-task-18-report",
+              "title": "Task 18 Report",
+              "summary": "Execution summary, tests passed, and verification for Task 18.",
+              "file": "superpowers/sdd/task-18-report.md"
+            }
+          ]
+        },
+        {
+          "id": "sdd-task-19",
+          "title": "Task 19",
+          "summary": "Brief and verification report for Task 19.",
+          "sections": [
+            {
+              "id": "sdd-task-19-brief",
+              "title": "Task 19 Brief",
+              "summary": "Specification and requirements brief for Task 19.",
+              "file": "superpowers/sdd/task-19-brief.md"
+            },
+            {
+              "id": "sdd-task-19-report",
+              "title": "Task 19 Report",
+              "summary": "Execution summary, tests passed, and verification for Task 19.",
+              "file": "superpowers/sdd/task-19-report.md"
+            }
+          ]
+        },
+        {
+          "id": "sdd-task-20",
+          "title": "Task 20",
+          "summary": "Brief and verification report for Task 20.",
+          "sections": [
+            {
+              "id": "sdd-task-20-brief",
+              "title": "Task 20 Brief",
+              "summary": "Specification and requirements brief for Task 20.",
+              "file": "superpowers/sdd/task-20-brief.md"
+            },
+            {
+              "id": "sdd-task-20-report",
+              "title": "Task 20 Report",
+              "summary": "Execution summary, tests passed, and verification for Task 20.",
+              "file": "superpowers/sdd/task-20-report.md"
+            }
+          ]
+        },
+        {
+          "id": "sdd-task-21",
+          "title": "Task 21",
+          "summary": "Brief and verification report for Task 21.",
+          "sections": [
+            {
+              "id": "sdd-task-21-brief",
+              "title": "Task 21 Brief",
+              "summary": "Specification and requirements brief for Task 21.",
+              "file": "superpowers/sdd/task-21-brief.md"
+            },
+            {
+              "id": "sdd-task-21-report",
+              "title": "Task 21 Report",
+              "summary": "Execution summary, tests passed, and verification for Task 21.",
+              "file": "superpowers/sdd/task-21-report.md"
+            }
+          ]
+        },
+        {
+          "id": "sdd-task-22",
+          "title": "Task 22",
+          "summary": "Brief and verification report for Task 22.",
+          "sections": [
+            {
+              "id": "sdd-task-22-brief",
+              "title": "Task 22 Brief",
+              "summary": "Specification and requirements brief for Task 22.",
+              "file": "superpowers/sdd/task-22-brief.md"
+            },
+            {
+              "id": "sdd-task-22-report",
+              "title": "Task 22 Report",
+              "summary": "Execution summary, tests passed, and verification for Task 22.",
+              "file": "superpowers/sdd/task-22-report.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legacy-ref",
+      "title": "Legacy Reference",
+      "summary": "Historical and legacy reference documentation.",
+      "sections": [
+        {
+          "id": "legacy-readme",
+          "title": "Legacy System Overview",
+          "summary": "Reference notes on original codebase structure.",
+          "file": "src/legacy/README.md"
+        }
+      ]
+    }
+  ]
+}
