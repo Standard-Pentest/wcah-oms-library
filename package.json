@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "WCAH Operations Management System (OMS) Documentation Library & Hall of Records",
   "type": "module",
+  "engines": {
+    "node": "22.x"
+  },
   "scripts": {
     "build": "pagenary build --all && node scripts/build-portal.js",
     "build:wcah": "pagenary build wcah",
