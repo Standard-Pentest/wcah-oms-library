@@ -239,7 +239,7 @@ const portalHtml = `<!doctype html>
     </header>
 
     <!-- Anchor Tenant (WCAH Hospital Branding) -->
-    <a href="./wcah/" class="featured-card">
+    <a href="/wcah/" class="featured-card">
       <div>
         <span class="featured-badge">Anchor Portal · Master Archive</span>
         <h2 class="featured-title">🏛️ WCAH: OMS Hall of Records</h2>
@@ -254,7 +254,7 @@ const portalHtml = `<!doctype html>
     <div class="section-title">Generational Repository Archives</div>
 
     <main class="grid">
-      <a href="./oms-v0/" class="card card-v0">
+      <a href="/oms-v0/" class="card card-v0">
         <div>
           <div class="card-version">Tenant: oms-v0</div>
           <h2 class="card-title">OMS v0 (Scheduler)</h2>
@@ -266,7 +266,7 @@ const portalHtml = `<!doctype html>
         </div>
       </a>
 
-      <a href="./oms-v1/" class="card card-v1">
+      <a href="/oms-v1/" class="card card-v1">
         <div>
           <div class="card-version">Tenant: oms-v1</div>
           <h2 class="card-title">OMS v1 (Full Stack)</h2>
@@ -278,7 +278,7 @@ const portalHtml = `<!doctype html>
         </div>
       </a>
 
-      <a href="./oms-v2/" class="card card-v2">
+      <a href="/oms-v2/" class="card card-v2">
         <div>
           <div class="card-version">Tenant: oms-v2</div>
           <h2 class="card-title">OMS v2 (Next-Gen)</h2>
@@ -299,7 +299,10 @@ const portalHtml = `<!doctype html>
 </html>
 `;
 
+const libraryDir = path.join(distDir, 'library');
+
 if (fs.existsSync(distDir)) {
-  fs.writeFileSync(path.join(distDir, 'index.html'), portalHtml);
-  console.log('Generated root portal at dist/index.html');
+  fs.mkdirSync(libraryDir, { recursive: true });
+  fs.writeFileSync(path.join(libraryDir, 'index.html'), portalHtml);
+  console.log('Generated portal hub at dist/library/index.html');
 }
