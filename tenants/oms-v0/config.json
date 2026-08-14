@@ -5,9 +5,8 @@
   "tagline": "West Coast Animal Hospital — Operations Management System v0",
   "description": "Comprehensive documentation, specifications, architecture, and task reports for OMS v0 (Scheduler MVP).",
   "language": "en",
-  "accentColor": "#4f818d",
-  "surfaceColor": "#f9f9f7",
-  "fontBody": "Open Sans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+  "accentColor": "#0d9488",
+  "surfaceColor": "#f8fafc",
   "codeCopy": true,
   "pageToc": {
     "placement": "rail",

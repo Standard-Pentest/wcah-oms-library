@@ -155,15 +155,17 @@ wcah-docs-library/
 
 ---
 
-## 🎨 Visual Identity & Branding
+## 🎨 Visual Identity & Theming
 
-The documentation library adheres to the [West Coast Animal Hospital](https://www.westcoast.vet/) design language:
-- **Primary Brand Slate**: `#516d7d`
-- **Interactive Ocean Blue**: `#6297b5`
-- **Deep Slate Navy**: `#475a6e`
-- **Coastal Seafoam**: `#4f818d` / `#63939f`
-- **Ivory Surface**: `#f9f9f7`
-- **Primary Typography**: `Open Sans`
+- **`wcah` (Anchor Portal · Hall of Records)**: Adheres to the official [West Coast Animal Hospital](https://www.westcoast.vet/) brand identity:
+  - **Primary Brand Slate**: `#516d7d`
+  - **Interactive Ocean Blue**: `#6297b5`
+  - **Ivory Header Surface**: `#f9f9f7`
+  - **Primary Typography**: `Open Sans`
+- **Sub-Tenant Developer Themes**:
+  - **`oms-v0`**: `#0d9488` (Teal)
+  - **`oms-v1`**: `#2563eb` (Blue)
+  - **`oms-v2`**: `#7c3aed` (Purple)
 
 ---
 

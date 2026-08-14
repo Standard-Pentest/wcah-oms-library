@@ -1,6 +1,19 @@
 # West Coast Animal Hospital — OMS v1 (Full Stack)
 
+> 🏛️ **Parent Archive**: **[Return to WCAH: OMS Hall of Records (Anchor Portal)](/wcah/)** · **[All Archives (Portal Hub)](/)**
+
 Welcome to the **Operations Management System (OMS) v1** documentation library. This tenant documents the full-stack architecture, FastAPI backend services, React frontend components, domain models, and API conformance specifications.
+
+---
+
+## 🏛️ Master WCAH Documentation Ecosystem
+
+Looking for the foundational business genesis, 12-factor cloud blueprints, cross-generational timeline, or other sub-tenant archives?
+
+- **[🏛️ Return to WCAH: OMS Hall of Records (Master Anchor Portal)](/wcah/)** — Master project genesis, 12-factor cloud architecture, evolution timeline, and technical retrospective.
+- **[🌐 Multi-Tenant Portal Hub](/)** — Central directory of all West Coast Animal Hospital documentation repositories.
+- **[📦 OMS v0 (Scheduler MVP)](/oms-v0/)** — Local-first prototype, pure JS domain rules, and 22 SDD task reports.
+- **[💎 OMS v2 (Next-Gen Foundation)](/oms-v2/)** — Greenfield Foundation Slice, decoupled clinical profiles, and seed conversion pipelines.
 
 ---
 

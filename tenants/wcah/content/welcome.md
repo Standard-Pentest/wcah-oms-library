@@ -14,9 +14,9 @@ Here you will find the original business genesis, foundational specifications, a
 ```mermaid
 graph TD
     classDef anchor fill:#516d7d,stroke:#3b525f,stroke-width:2px,color:#fff;
-    classDef v0 fill:#63939f,stroke:#48707a,stroke-width:2px,color:#fff;
-    classDef v1 fill:#475a6e,stroke:#334252,stroke-width:2px,color:#fff;
-    classDef v2 fill:#2b7a9e,stroke:#1d5b78,stroke-width:2px,color:#fff;
+    classDef v0 fill:#0d9488,stroke:#0f766e,stroke-width:2px,color:#fff;
+    classDef v1 fill:#2563eb,stroke:#1d4ed8,stroke-width:2px,color:#fff;
+    classDef v2 fill:#7c3aed,stroke:#6d28d9,stroke-width:2px,color:#fff;
 
     Anchor["🏛️ WCAH Hall of Records (Anchor)"]:::anchor
 

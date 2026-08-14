@@ -29,8 +29,8 @@
 
 ---
 
-<div style="margin-top: 2rem; padding: 1.5rem; background: rgba(99, 147, 159, 0.1); border: 1px solid #63939f; border-radius: 0.75rem; text-align: center;">
-  <h3 style="margin-bottom: 0.5rem; color: #4f818d;">Explore the Dedicated oms-v0 Portal</h3>
-  <p style="margin-bottom: 1rem; color: #516d7d;">Browse all 64 original specifications, implementation plans, and SDD task verification reports.</p>
-  <a href="/oms-v0/" style="display: inline-block; padding: 0.75rem 1.75rem; background: #4f818d; color: #ffffff; text-decoration: none; font-weight: 700; border-radius: 0.5rem;">Launch OMS v0 Portal →</a>
+<div style="margin-top: 2rem; padding: 1.5rem; background: rgba(13, 148, 136, 0.1); border: 1px solid #0d9488; border-radius: 0.75rem; text-align: center;">
+  <h3 style="margin-bottom: 0.5rem; color: #0d9488;">Explore the Dedicated oms-v0 Portal</h3>
+  <p style="margin-bottom: 1rem; color: #64748b;">Browse all 64 original specifications, implementation plans, and SDD task verification reports.</p>
+  <a href="/oms-v0/" style="display: inline-block; padding: 0.75rem 1.75rem; background: #0d9488; color: #ffffff; text-decoration: none; font-weight: 700; border-radius: 0.5rem;">Launch OMS v0 Portal →</a>
 </div>

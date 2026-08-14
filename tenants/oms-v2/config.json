@@ -5,9 +5,8 @@
   "tagline": "West Coast Animal Hospital — Next-Generation Operations Platform",
   "description": "Next-generation architecture, foundation slices, domain open items, conversion pipelines, and specifications for OMS v2.",
   "language": "en",
-  "accentColor": "#2b7a9e",
-  "surfaceColor": "#f9f9f7",
-  "fontBody": "Open Sans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+  "accentColor": "#7c3aed",
+  "surfaceColor": "#f8fafc",
   "codeCopy": true,
   "pageToc": {
     "placement": "rail",

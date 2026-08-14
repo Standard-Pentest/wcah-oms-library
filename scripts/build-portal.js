@@ -21,9 +21,9 @@ const portalHtml = `<!doctype html>
       --text: #f8fafc;
       --muted: #8da2b5;
       --accent-wcah: #516d7d;
-      --accent-v0: #63939f;
-      --accent-v1: #475a6e;
-      --accent-v2: #6297b5;
+      --accent-v0: #0d9488;
+      --accent-v1: #2563eb;
+      --accent-v2: #7c3aed;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -74,7 +74,7 @@ const portalHtml = `<!doctype html>
       margin: 0 auto;
     }
 
-    /* Featured Anchor Card */
+    /* Featured Anchor Card (WCAH Hospital Branding) */
     .featured-card {
       background: linear-gradient(145deg, #1b2c3a 0%, #131e28 100%);
       border: 1px solid #516d7d;
@@ -188,9 +188,9 @@ const portalHtml = `<!doctype html>
       text-transform: uppercase;
       margin-bottom: 0.5rem;
     }
-    .card-v0 .card-version { color: #8ebbc5; }
-    .card-v1 .card-version { color: #9bbad3; }
-    .card-v2 .card-version { color: #8ec3df; }
+    .card-v0 .card-version { color: #2dd4bf; }
+    .card-v1 .card-version { color: #60a5fa; }
+    .card-v2 .card-version { color: #c084fc; }
     .card-title {
       font-size: 1.5rem;
       font-weight: 700;
@@ -219,9 +219,9 @@ const portalHtml = `<!doctype html>
       align-items: center;
       gap: 0.35rem;
     }
-    .card-v0 .card-btn { color: #8ebbc5; }
-    .card-v1 .card-btn { color: #9bbad3; }
-    .card-v2 .card-btn { color: #8ec3df; }
+    .card-v0 .card-btn { color: #2dd4bf; }
+    .card-v1 .card-btn { color: #60a5fa; }
+    .card-v2 .card-btn { color: #c084fc; }
     .footer {
       margin-top: 4.5rem;
       font-size: 0.875rem;
@@ -238,7 +238,7 @@ const portalHtml = `<!doctype html>
       <p class="subtitle">Operations Management System (OMS) documentation library spanning all architectural generations from the foundational business problem to next-generation clean-slate systems.</p>
     </header>
 
-    <!-- Anchor Tenant -->
+    <!-- Anchor Tenant (WCAH Hospital Branding) -->
     <a href="./wcah/" class="featured-card">
       <div>
         <span class="featured-badge">Anchor Portal · Master Archive</span>

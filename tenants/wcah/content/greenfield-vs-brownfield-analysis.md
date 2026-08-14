@@ -41,9 +41,9 @@ graph TD
         B3 --> C3[Zero-Debt Enterprise Platform]
     end
 
-    style Iteration1 fill:#f2f7f8,stroke:#63939f,stroke-width:1px;
-    style Iteration2 fill:#eef3f6,stroke:#475a6e,stroke-width:1px;
-    style Iteration3 fill:#edf6fa,stroke:#2b7a9e,stroke-width:1px;
+    style Iteration1 fill:#f0fdf4,stroke:#16a34a,stroke-width:1px;
+    style Iteration2 fill:#eff6ff,stroke:#2563eb,stroke-width:1px;
+    style Iteration3 fill:#faf5ff,stroke:#7c3aed,stroke-width:1px;
 ```
 
 ### 1. The Transition from `scheduler` (`oms-v0`) to `oms` (`oms-v1`)

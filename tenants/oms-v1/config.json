@@ -5,9 +5,8 @@
   "tagline": "West Coast Animal Hospital — Operations Management System v1",
   "description": "Complete architecture, API contracts, domain model, specifications, and SDD task reports for OMS v1.",
   "language": "en",
-  "accentColor": "#475a6e",
-  "surfaceColor": "#f9f9f7",
-  "fontBody": "Open Sans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+  "accentColor": "#2563eb",
+  "surfaceColor": "#f8fafc",
   "codeCopy": true,
   "pageToc": {
     "placement": "rail",

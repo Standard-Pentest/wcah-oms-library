@@ -1,5 +1,7 @@
 # WCAH Scheduler
 
+> 🏛️ **Parent Archive**: **[Return to WCAH: OMS Hall of Records (Anchor Portal)](/wcah/)** · **[All Archives (Portal Hub)](/)**
+
 Employee shift scheduling for West Coast Animal Hospital Linda Vista — the
 office manager's Excel schedule-builder workbook, automated. Local-first
 SPA: React + Tailwind, pure JS domain, IndexedDB persistence, no server.

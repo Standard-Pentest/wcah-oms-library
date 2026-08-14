@@ -1,6 +1,19 @@
 # West Coast Animal Hospital — OMS v0 (Scheduler)
 
+> 🏛️ **Parent Archive**: **[Return to WCAH: OMS Hall of Records (Anchor Portal)](/wcah/)** · **[All Archives (Portal Hub)](/)**
+
 Welcome to the **Operations Management System (OMS) v0** documentation library. This site serves as the permanent, searchable documentation archive for the original Scheduler MVP iteration of the WCAH platform.
+
+---
+
+## 🏛️ Master WCAH Documentation Ecosystem
+
+Looking for the foundational business genesis, 12-factor cloud blueprints, cross-generational timeline, or other sub-tenant archives?
+
+- **[🏛️ Return to WCAH: OMS Hall of Records (Master Anchor Portal)](/wcah/)** — Master project genesis, 12-factor cloud architecture, evolution timeline, and technical retrospective.
+- **[🌐 Multi-Tenant Portal Hub](/)** — Central directory of all West Coast Animal Hospital documentation repositories.
+- **[🚀 OMS v1 (Full-Stack OMS)](/oms-v1/)** — Python FastAPI backend, modular relational schema, and SP2A Document API.
+- **[💎 OMS v2 (Next-Gen Foundation)](/oms-v2/)** — Greenfield Foundation Slice, decoupled clinical profiles, and seed conversion pipelines.
 
 ---
 

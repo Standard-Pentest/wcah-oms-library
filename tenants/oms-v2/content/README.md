@@ -1,5 +1,7 @@
 # oms-new
 
+> 🏛️ **Parent Archive**: **[Return to WCAH: OMS Hall of Records (Anchor Portal)](/wcah/)** · **[All Archives (Portal Hub)](/)**
+
 A database-driven rebuild of the OMS shift-scheduling module for West Coast Animal
 Hospital, on Python FastAPI, PostgreSQL, and React.
 

@@ -31,8 +31,8 @@
 
 ---
 
-<div style="margin-top: 2rem; padding: 1.5rem; background: rgba(71, 90, 110, 0.1); border: 1px solid #475a6e; border-radius: 0.75rem; text-align: center;">
-  <h3 style="margin-bottom: 0.5rem; color: #475a6e;">Explore the Dedicated oms-v1 Portal</h3>
-  <p style="margin-bottom: 1rem; color: #516d7d;">Browse all 60 specifications, API contracts, domain models, and SP2A SDD task reports.</p>
-  <a href="/oms-v1/" style="display: inline-block; padding: 0.75rem 1.75rem; background: #475a6e; color: #ffffff; text-decoration: none; font-weight: 700; border-radius: 0.5rem;">Launch OMS v1 Portal →</a>
+<div style="margin-top: 2rem; padding: 1.5rem; background: rgba(37, 99, 235, 0.1); border: 1px solid #2563eb; border-radius: 0.75rem; text-align: center;">
+  <h3 style="margin-bottom: 0.5rem; color: #2563eb;">Explore the Dedicated oms-v1 Portal</h3>
+  <p style="margin-bottom: 1rem; color: #64748b;">Browse all 60 specifications, API contracts, domain models, and SP2A SDD task reports.</p>
+  <a href="/oms-v1/" style="display: inline-block; padding: 0.75rem 1.75rem; background: #2563eb; color: #ffffff; text-decoration: none; font-weight: 700; border-radius: 0.5rem;">Launch OMS v1 Portal →</a>
 </div>
