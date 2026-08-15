@@ -52,3 +52,5 @@ Thumbs.db
 .temp/
 tmp/
 .eslintcache
+/.cursor
+/.aiwg
