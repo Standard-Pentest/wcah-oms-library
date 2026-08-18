@@ -13,6 +13,12 @@
       "summary": "Chronological repository status reports for TomWCAH/oms-new, newest first.",
       "sections": [
         {
+          "id": "repo-status-2026-08-18-2",
+          "title": "2026-08-18 (2nd pass) — Repository Analysis",
+          "summary": "Deep-dive across all 80 commits through c656009. Top process risk: unprotected main caused the ~30-hour red run; recommends starting sub-project 4.",
+          "file": "repo-status-2026-08-18-2.md"
+        },
+        {
           "id": "repo-status-2026-08-18",
           "title": "2026-08-18 — Repository Update",
           "summary": "Main is green at c656009: PRs #1–#4 merged (writes slice, CI/bootstrap hardening, docs catch-up). Watch item: a sys.path workaround in codes.py.",
