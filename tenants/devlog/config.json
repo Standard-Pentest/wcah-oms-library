@@ -1,0 +1,35 @@
+{
+  "title": "WCAH Devlog — oms-new Status Reports",
+  "brandMark": "Devlog",
+  "brandSub": "oms-new",
+  "tagline": "West Coast Animal Hospital — Ongoing Development Status for oms-new",
+  "description": "Rolling status reports covering the latest changes, CI health, documentation drift, and sprint recommendations for the TomWCAH/oms-new repository.",
+  "language": "en",
+  "accentColor": "#b45309",
+  "surfaceColor": "#fffbeb",
+  "codeCopy": true,
+  "pageToc": {
+    "placement": "rail",
+    "minHeadings": 2
+  },
+  "export": {
+    "enabled": true,
+    "scopes": ["page", "site"],
+    "showTagline": true,
+    "showDate": true
+  },
+  "share": {
+    "enabled": true,
+    "services": ["copy", "email"]
+  },
+  "welcome": {
+    "eyebrow": "Live Project Feed",
+    "headline": "oms-new Devlog",
+    "lead": "Ongoing repository status reports for the active OMS v2 codebase at TomWCAH/oms-new — latest changes, CI health, documentation drift, and next-sprint recommendations.",
+    "pillars": [
+      "Periodic status reports dropped into dropload/ and published here.",
+      "Tracks commits, CI runs, test health, and doc drift on oms-new main.",
+      "Newest report is always listed first; history is never rewritten."
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "default": "welcome",
+  "sections": [
+    {
+      "id": "welcome",
+      "title": "Welcome & Feed Overview",
+      "summary": "What the devlog is, how reports are published, and where the oms-new repository lives.",
+      "file": "welcome.md"
+    },
+    {
+      "id": "reports",
+      "title": "Status Reports",
+      "summary": "Chronological repository status reports for TomWCAH/oms-new, newest first.",
+      "sections": [
+        {
+          "id": "repo-status-2026-08-17",
+          "title": "2026-08-17 — Repository Status",
+          "summary": "Main is red on 5 lint errors; the writes slice shipped but has never test-run in CI. Includes sprint recommendations.",
+          "file": "repo-status-2026-08-17.md"
+        }
+      ]
+    }
+  ]
+}
