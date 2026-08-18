@@ -5,6 +5,12 @@
 
 ---
 
+> ### 📡 Live Project Feed — [Open the Devlog tenant →](/devlog/)
+>
+> Ongoing status reports for the active **[oms-new](https://github.com/TomWCAH/oms-new)** repository (OMS v2) are published in the **[Devlog](/devlog/)**: latest changes, CI health, documentation drift, and next-sprint recommendations. Start with the [2026-08-17 repository status report](/devlog/#repo-status-2026-08-17).
+
+---
+
 ## 🏛️ Executive Welcome
 
 Welcome to the **WCAH OMS Hall of Records**. This portal is the primary anchor of the West Coast Animal Hospital documentation ecosystem. It chronicles the journey of engineering an **AI-native, constraint-driven Operations Management System** to solve one of the most critical operational challenges in modern veterinary medicine: **clinical shift scheduling, skill-matched staffing, and enterprise resource planning**.
@@ -14,12 +20,14 @@ Here you will find the original business genesis, foundational specifications, a
 ```mermaid
 graph TD
     classDef anchor fill:#516d7d,stroke:#3b525f,stroke-width:2px,color:#fff;
+    classDef devlog fill:#b45309,stroke:#92400e,stroke-width:2px,color:#fff;
     classDef v0 fill:#0d9488,stroke:#0f766e,stroke-width:2px,color:#fff;
     classDef v1 fill:#2563eb,stroke:#1d4ed8,stroke-width:2px,color:#fff;
     classDef v2 fill:#7c3aed,stroke:#6d28d9,stroke-width:2px,color:#fff;
 
     Anchor["🏛️ WCAH Hall of Records (Anchor)"]:::anchor
 
+    Anchor --> Devlog["📡 Tenant: devlog (Live Feed)<br/>• oms-new Status Reports<br/>• CI & Test Health<br/>• Sprint Recommendations"]:::devlog
     Anchor --> V0["📦 Tenant: oms-v0 (Scheduler MVP)<br/>• Local-First JS Engine<br/>• Rule Extraction & Parity<br/>• 22 SDD Task Briefs & Reports"]:::v0
     Anchor --> V1["🚀 Tenant: oms-v1 (Full-Stack OMS)<br/>• FastAPI Backend & SQLite/PG<br/>• Modular Relational Schema<br/>• SP2A Document API & SDD Tasks"]:::v1
     Anchor --> V2["💎 Tenant: oms-v2 (Next-Gen Foundation)<br/>• Clean-Slate Foundation Slice<br/>• Decoupled Skills & Coverage Model<br/>• Deterministic Seed Conversion"]:::v2
@@ -56,6 +64,7 @@ An architectural essay examining why each repository iteration was transitioned,
 
 | Tenant Repository | Title & Focus | Documents | Primary Innovations | Link |
 | :--- | :--- | :---: | :--- | :---: |
+| **`devlog`** | **Live Feed (oms-new)** | **Rolling** | Ongoing status reports for the active `oms-new` repository: latest changes, CI health, doc drift, sprint recommendations. | [Browse `devlog` →](/devlog/) |
 | **`oms-v0`** | **Scheduler MVP** | **64 Docs** | Local-first prototype, pure JS domain rules, Excel parity benchmark, 22 SDD task briefs & reports. | [Browse `oms-v0` →](/oms-v0/) |
 | **`oms-v1`** | **Full-Stack OMS** | **60 Docs** | Python FastAPI backend, React frontend, modular database schema, conformance testing, SP2A Document API. | [Browse `oms-v1` →](/oms-v1/) |
 | **`oms-v2`** | **Next-Gen OMS (`oms-new`)** | **44 Docs** | Greenfield foundation slice, decoupled skill profiles, practice shift lengths, deterministic seed conversion. | [Browse `oms-v2` →](/oms-v2/) |

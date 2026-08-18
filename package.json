@@ -9,6 +9,7 @@
   "scripts": {
     "build": "pagenary build --all && node scripts/build-portal.js",
     "build:wcah": "pagenary build wcah",
+    "build:devlog": "pagenary build devlog",
     "build:v0": "pagenary build oms-v0",
     "build:v1": "pagenary build oms-v1",
     "build:v2": "pagenary build oms-v2",

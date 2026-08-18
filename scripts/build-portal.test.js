@@ -35,7 +35,7 @@ test('writes the hub to dist/library/index.html with root-absolute tenant links'
     );
 
     const html = readFileSync(hubPath, 'utf8');
-    for (const href of ['/wcah/', '/oms-v0/', '/oms-v1/', '/oms-v2/']) {
+    for (const href of ['/wcah/', '/devlog/', '/oms-v0/', '/oms-v1/', '/oms-v2/']) {
       assert.match(html, new RegExp(`href="${href}"`));
     }
     assert.doesNotMatch(html, /href="\.\//);

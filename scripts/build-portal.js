@@ -21,6 +21,7 @@ const portalHtml = `<!doctype html>
       --text: #f8fafc;
       --muted: #8da2b5;
       --accent-wcah: #516d7d;
+      --accent-devlog: #b45309;
       --accent-v0: #0d9488;
       --accent-v1: #2563eb;
       --accent-v2: #7c3aed;
@@ -139,6 +140,64 @@ const portalHtml = `<!doctype html>
       gap: 0.25rem;
     }
 
+    /* Live Devlog Banner (oms-new status feed) */
+    .devlog-card {
+      background: linear-gradient(145deg, #2a2114 0%, #1c1812 100%);
+      border: 1px solid #b45309;
+      border-radius: 1rem;
+      padding: 1.5rem 2rem;
+      margin-bottom: 2.5rem;
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      transition: all 0.25s ease;
+      box-shadow: 0 8px 24px -10px rgba(180, 83, 9, 0.4);
+    }
+    .devlog-card:hover {
+      transform: translateY(-3px);
+      border-color: #f59e0b;
+      box-shadow: 0 16px 30px -10px rgba(245, 158, 11, 0.45);
+    }
+    .devlog-badge {
+      display: inline-block;
+      padding: 0.25rem 0.7rem;
+      border-radius: 9999px;
+      background: rgba(245, 158, 11, 0.15);
+      color: #fbbf24;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-right: 0.75rem;
+      border: 1px solid rgba(245, 158, 11, 0.35);
+    }
+    .devlog-title {
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: #ffffff;
+      display: inline;
+    }
+    .devlog-desc {
+      font-size: 0.95rem;
+      color: var(--muted);
+      line-height: 1.55;
+      margin-top: 0.4rem;
+      max-width: 640px;
+    }
+    .devlog-btn {
+      color: #f59e0b;
+      font-weight: 700;
+      font-size: 1.05rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      white-space: nowrap;
+    }
+
     .section-title {
       font-size: 1.25rem;
       font-weight: 700;
@@ -251,6 +310,16 @@ const portalHtml = `<!doctype html>
       </div>
     </a>
 
+    <!-- Live Devlog Feed (oms-new status reports) -->
+    <a href="/devlog/" class="devlog-card">
+      <div>
+        <span class="devlog-badge">Live Feed</span>
+        <span class="devlog-title">📡 Devlog — oms-new Status Reports</span>
+        <p class="devlog-desc">Ongoing status reports for the active <strong>oms-new</strong> repository: latest changes, CI health, documentation drift, and next-sprint recommendations. Newest report: 2026-08-17.</p>
+      </div>
+      <span class="devlog-btn">Read the Devlog →</span>
+    </a>
+
     <div class="section-title">Generational Repository Archives</div>
 
     <main class="grid">
@@ -292,7 +361,7 @@ const portalHtml = `<!doctype html>
     </main>
 
     <footer class="footer">
-      <p>© 2026 West Coast Animal Hospital · 179 Total Documentation Pages · Built with Pagenary static site generator.</p>
+      <p>© 2026 West Coast Animal Hospital · 181 Total Documentation Pages + Rolling Devlog · Built with Pagenary static site generator.</p>
     </footer>
   </div>
 </body>
