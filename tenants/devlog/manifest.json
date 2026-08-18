@@ -13,6 +13,12 @@
       "summary": "Chronological repository status reports for TomWCAH/oms-new, newest first.",
       "sections": [
         {
+          "id": "repo-status-2026-08-18",
+          "title": "2026-08-18 — Repository Update",
+          "summary": "Main is green at c656009: PRs #1–#4 merged (writes slice, CI/bootstrap hardening, docs catch-up). Watch item: a sys.path workaround in codes.py.",
+          "file": "repo-status-2026-08-18.md"
+        },
+        {
           "id": "repo-status-2026-08-17",
           "title": "2026-08-17 — Repository Status",
           "summary": "Main is red on 5 lint errors; the writes slice shipped but has never test-run in CI. Includes sprint recommendations.",

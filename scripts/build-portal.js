@@ -315,7 +315,7 @@ const portalHtml = `<!doctype html>
       <div>
         <span class="devlog-badge">Live Feed</span>
         <span class="devlog-title">📡 Devlog — oms-new Status Reports</span>
-        <p class="devlog-desc">Ongoing status reports for the active <strong>oms-new</strong> repository: latest changes, CI health, documentation drift, and next-sprint recommendations. Newest report: 2026-08-17.</p>
+        <p class="devlog-desc">Ongoing status reports for the active <strong>oms-new</strong> repository: latest changes, CI health, documentation drift, and next-sprint recommendations. Newest report: 2026-08-18.</p>
       </div>
       <span class="devlog-btn">Read the Devlog →</span>
     </a>
@@ -361,7 +361,7 @@ const portalHtml = `<!doctype html>
     </main>
 
     <footer class="footer">
-      <p>© 2026 West Coast Animal Hospital · 181 Total Documentation Pages + Rolling Devlog · Built with Pagenary static site generator.</p>
+      <p>© 2026 West Coast Animal Hospital · 179 Archived Documentation Pages + Rolling Devlog · Built with Pagenary static site generator.</p>
     </footer>
   </div>
 </body>

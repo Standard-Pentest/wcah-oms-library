@@ -35,4 +35,5 @@ Publishing a report means copying it into `tenants/devlog/content/` and register
 
 | Date | Report | Headline |
 | :--- | :--- | :--- |
+| **2026-08-18** | [Repository Update](#repo-status-2026-08-18) | ✅ `main` is green at `c656009` — PRs #1–#4 merged (writes slice, CI/bootstrap hardening, docs catch-up). Watch item: `sys.path` workaround in `codes.py`. |
 | **2026-08-17** | [Repository Status](#repo-status-2026-08-17) | ⛔ `main` is red on 5 lint errors; the configuration-and-roster-writes slice shipped but its ~45 backend tests have never run in CI. |

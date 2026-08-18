@@ -6,7 +6,7 @@
 
 ## 📖 Overview
 
-This repository houses the complete documentation ecosystem for the WCAH OMS platform across its architectural evolution. Powered by the [Pagenary](https://github.com/jmagly/pagenary) multi-tenant documentation generator, it unifies **181 documentation pages** across five distinct tenant portals with search, navigation, and [West Coast Animal Hospital](https://www.westcoast.vet/) branding.
+This repository houses the complete documentation ecosystem for the WCAH OMS platform across its architectural evolution. Powered by the [Pagenary](https://github.com/jmagly/pagenary) multi-tenant documentation generator, it unifies **179 archived documentation pages** plus a rolling devlog feed across five distinct tenant portals with search, navigation, and [West Coast Animal Hospital](https://www.westcoast.vet/) branding.
 
 ### 🧭 Tenant Archives
 
