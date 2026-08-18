@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 
 const repoRoot = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 
-test('vercel.json builds static dist and redirects / to /wcah/', () => {
+test('vercel.json builds static dist and redirects / to /library/ portal hub', () => {
   const config = JSON.parse(
     readFileSync(path.join(repoRoot, 'vercel.json'), 'utf8'),
   );
@@ -15,7 +15,7 @@ test('vercel.json builds static dist and redirects / to /wcah/', () => {
   assert.equal('framework' in config, false);
   assert.equal('rewrites' in config, false);
   assert.deepEqual(config.redirects, [
-    { source: '/', destination: '/wcah/', permanent: false },
+    { source: '/', destination: '/library/', permanent: false },
   ]);
 });
 
