@@ -7,7 +7,7 @@
 
 > ### 📡 Live Project Feed — [Open the Devlog tenant →](/devlog/)
 >
-> Ongoing status reports for the active **[oms-new](https://github.com/TomWCAH/oms-new)** repository (OMS v2) are published in the **[Devlog](/devlog/)**: latest changes, CI health, documentation drift, and next-sprint recommendations. Start with the [2026-08-18 repository analysis](/devlog/#repo-status-2026-08-18-2).
+> Ongoing status reports for the active **[oms-new](https://github.com/TomWCAH/oms-new)** repository (OMS v2) are published in the **[Devlog](/devlog/)**: latest changes, CI health, documentation drift, and next-sprint recommendations. Start with the [2026-08-18 repository analysis (3rd pass)](/devlog/#repo-status-2026-08-18-3).
 
 ---
 

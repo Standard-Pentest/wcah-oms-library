@@ -13,6 +13,12 @@
       "summary": "Chronological repository status reports for TomWCAH/oms-new, newest first.",
       "sections": [
         {
+          "id": "repo-status-2026-08-18-3",
+          "title": "2026-08-18 (3rd pass) — Repository Analysis",
+          "summary": "Deep-dive across PRs #1–#10 through d9a2ca2. Priority callout: need-override pinning bug in Week Setup on main; recommends fix-forward, then starting #4b Week Board.",
+          "file": "repo-status-2026-08-18-3.md"
+        },
+        {
           "id": "repo-status-2026-08-18-2",
           "title": "2026-08-18 (2nd pass) — Repository Analysis",
           "summary": "Deep-dive across all 80 commits through c656009. Top process risk: unprotected main caused the ~30-hour red run; recommends starting sub-project 4.",
