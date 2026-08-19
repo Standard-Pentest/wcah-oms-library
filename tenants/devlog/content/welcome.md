@@ -35,6 +35,7 @@ Publishing a report means copying it into `tenants/devlog/content/` and register
 
 | Date | Report | Headline |
 | :--- | :--- | :--- |
+| **2026-08-19** | [Repository Analysis](#repo-status-2026-08-19) | 🔍 Deep-dive through PR #11 (`4a053ce`, 94 commits; supersedes the first 08-18 pass). ✅ All gates green: 331/331 pytest, 92/92 vitest, `ruff` clean. **Week Setup #4a shipped** (DRAFT weeks, fill/replace, explicit save); next slice #4b Week Board; scheduling engine #5 still unbuilt. |
 | **2026-08-18 (3rd pass)** | [Repository Analysis](#repo-status-2026-08-18-3) | 🔍 Deep-dive across PRs #1–#10 through `d9a2ca2`. Priority: **need-override pinning bug** in Week Setup silently freezes the unedited field against future Configuration changes. Recommends fix-forward, then #4b Week Board. |
 | **2026-08-18 (2nd pass)** | [Repository Analysis](#repo-status-2026-08-18-2) | 🔍 Deep-dive across all 80 commits through `c656009`. Top process risk: **unprotected `main`** caused the ~30-hour red run. Recommends starting sub-project 4 (week lifecycle & board). |
 | **2026-08-18** | [Repository Update](#repo-status-2026-08-18) | ✅ `main` is green at `c656009` — PRs #1–#4 merged (writes slice, CI/bootstrap hardening, docs catch-up). Watch item: `sys.path` workaround in `codes.py`. |
