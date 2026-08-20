@@ -13,6 +13,12 @@
       "summary": "Chronological repository status reports for TomWCAH/oms-new, newest first.",
       "sections": [
         {
+          "id": "repo-status-2026-08-20",
+          "title": "2026-08-20 — Repository Report",
+          "summary": "Production VPS world-open on 443 with no app auth; live stack one PR behind main (8025da4 vs f8c360b). CI green: 338 backend / 92 frontend. Next: hPanel allowlist, GitHub deploy key, then #4b Week Board.",
+          "file": "repo-status-2026-08-20.md"
+        },
+        {
           "id": "repo-status-2026-08-19-3",
           "title": "2026-08-19 (3rd pass) — Repository Report",
           "summary": "Production went live at app.wcahops.com with no auth. PRs #15–#16, CI green at 8025da4. Critical: unauthenticated public API serving real org data; deploy.sh blocked on a missing GitHub deploy key; runbook still says the VPS is not provisioned.",

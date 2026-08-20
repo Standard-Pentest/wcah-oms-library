@@ -315,7 +315,7 @@ const portalHtml = `<!doctype html>
       <div>
         <span class="devlog-badge">Live Feed</span>
         <span class="devlog-title">📡 Devlog — oms-new Status Reports</span>
-        <p class="devlog-desc">Ongoing status reports for the active <strong>oms-new</strong> repository: latest changes, CI health, documentation drift, and next-sprint recommendations. Newest report: 2026-08-19 (3rd pass).</p>
+        <p class="devlog-desc">Ongoing status reports for the active <strong>oms-new</strong> repository: latest changes, CI health, documentation drift, and next-sprint recommendations. Newest report: 2026-08-20.</p>
       </div>
       <span class="devlog-btn">Read the Devlog →</span>
     </a>

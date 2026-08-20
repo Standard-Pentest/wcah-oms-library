@@ -35,6 +35,7 @@ Publishing a report means copying it into `tenants/devlog/content/` and register
 
 | Date | Report | Headline |
 | :--- | :--- | :--- |
+| **2026-08-20** | [Repository Report](#repo-status-2026-08-20) | ⛔ Production VPS at `app.wcahops.com` is world-open on 443 with **no app auth**; live stack is one PR behind `main` (`8025da4` vs `f8c360b`). ✅ CI green: 338 backend / 92 frontend. Next: hPanel allowlist, GitHub deploy key, then #4b Week Board. |
 | **2026-08-19 (3rd pass)** | [Repository Report](#repo-status-2026-08-19-3) | ⛔ Production live at `app.wcahops.com` with **no authentication** — unauthenticated `GET /api/reference` returned real org data. ✅ CI green at `8025da4` (PRs #15–#16). Next: auth (or IP allowlist), deploy-key so `deploy.sh` can run, and bring `docs/deployment.md` to executed state. |
 | **2026-08-19 (2nd pass)** | [Repository Report](#repo-status-2026-08-19-2) | ✅ `main` green at `8025da4` — PRs #15–#16, the **fourth consecutive green merge**: PATCH bodies typed end to end; compose consolidated to root + Hostinger VPS deploy/backup stack. ⚠ Local `pytest` fails 2/337 on a stale worktree; the entire VPS deployment path is unproven — run the first deploy and a restore drill. |
 | **2026-08-19** | [Repository Analysis](#repo-status-2026-08-19) | 🔍 Deep-dive through PR #11 (`4a053ce`, 94 commits; supersedes the first 08-18 pass). ✅ All gates green: 331/331 pytest, 92/92 vitest, `ruff` clean. **Week Setup #4a shipped** (DRAFT weeks, fill/replace, explicit save); next slice #4b Week Board; scheduling engine #5 still unbuilt. |
