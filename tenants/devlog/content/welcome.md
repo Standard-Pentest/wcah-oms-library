@@ -35,6 +35,7 @@ Publishing a report means copying it into `tenants/devlog/content/` and register
 
 | Date | Report | Headline |
 | :--- | :--- | :--- |
+| **2026-08-19 (3rd pass)** | [Repository Report](#repo-status-2026-08-19-3) | ⛔ Production live at `app.wcahops.com` with **no authentication** — unauthenticated `GET /api/reference` returned real org data. ✅ CI green at `8025da4` (PRs #15–#16). Next: auth (or IP allowlist), deploy-key so `deploy.sh` can run, and bring `docs/deployment.md` to executed state. |
 | **2026-08-19 (2nd pass)** | [Repository Report](#repo-status-2026-08-19-2) | ✅ `main` green at `8025da4` — PRs #15–#16, the **fourth consecutive green merge**: PATCH bodies typed end to end; compose consolidated to root + Hostinger VPS deploy/backup stack. ⚠ Local `pytest` fails 2/337 on a stale worktree; the entire VPS deployment path is unproven — run the first deploy and a restore drill. |
 | **2026-08-19** | [Repository Analysis](#repo-status-2026-08-19) | 🔍 Deep-dive through PR #11 (`4a053ce`, 94 commits; supersedes the first 08-18 pass). ✅ All gates green: 331/331 pytest, 92/92 vitest, `ruff` clean. **Week Setup #4a shipped** (DRAFT weeks, fill/replace, explicit save); next slice #4b Week Board; scheduling engine #5 still unbuilt. |
 | **2026-08-18 (3rd pass)** | [Repository Analysis](#repo-status-2026-08-18-3) | 🔍 Deep-dive across PRs #1–#10 through `d9a2ca2`. Priority: **need-override pinning bug** in Week Setup silently freezes the unedited field against future Configuration changes. Recommends fix-forward, then #4b Week Board. |

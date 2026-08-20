@@ -13,6 +13,12 @@
       "summary": "Chronological repository status reports for TomWCAH/oms-new, newest first.",
       "sections": [
         {
+          "id": "repo-status-2026-08-19-3",
+          "title": "2026-08-19 (3rd pass) — Repository Report",
+          "summary": "Production went live at app.wcahops.com with no auth. PRs #15–#16, CI green at 8025da4. Critical: unauthenticated public API serving real org data; deploy.sh blocked on a missing GitHub deploy key; runbook still says the VPS is not provisioned.",
+          "file": "repo-status-2026-08-19-3.md"
+        },
+        {
           "id": "repo-status-2026-08-19-2",
           "title": "2026-08-19 (2nd pass) — Repository Report",
           "summary": "PRs #15–#16 through 8025da4 — fourth consecutive green merge. PATCH bodies typed end to end; compose consolidated to root + Hostinger VPS deploy/backup stack. Risks: stale worktree fails 2/337 local tests; the VPS deployment path is entirely unproven.",
