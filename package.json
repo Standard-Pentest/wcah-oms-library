@@ -7,18 +7,19 @@
     "node": "22.x"
   },
   "scripts": {
-    "build": "pagenary build --all && node scripts/build-portal.js",
+    "build": "pagenary build --all && node scripts/build-portal.js && node scripts/inject-sentry.js",
     "build:wcah": "pagenary build wcah",
     "build:devlog": "pagenary build devlog",
     "build:v0": "pagenary build oms-v0",
     "build:v1": "pagenary build oms-v1",
     "build:v2": "pagenary build oms-v2",
-    "dev": "pagenary build --all && node scripts/build-portal.js && pagenary serve",
-    "portal": "pagenary build --all && node scripts/build-portal.js && pagenary serve",
+    "dev": "pagenary build --all && node scripts/build-portal.js && node scripts/inject-sentry.js && pagenary serve",
+    "portal": "pagenary build --all && node scripts/build-portal.js && node scripts/inject-sentry.js && pagenary serve",
     "start": "pagenary serve",
     "serve": "pagenary serve",
     "lint": "pagenary lint",
-    "clean": "pagenary clean"
+    "clean": "pagenary clean",
+    "test": "node --test scripts/*.test.js"
   },
   "keywords": [
     "wcah",

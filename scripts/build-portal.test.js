@@ -39,6 +39,8 @@ test('writes the hub to dist/library/index.html with root-absolute tenant links'
       assert.match(html, new RegExp(`href="${href}"`));
     }
     assert.doesNotMatch(html, /href="\.\//);
+    assert.doesNotMatch(html, /id="sentry-root"/);
+    assert.doesNotMatch(html, /sentry-assets/);
   } finally {
     rmSync(cwd, { recursive: true, force: true });
   }

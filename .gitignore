@@ -58,3 +58,6 @@ tmp/
 # Devlog report intake inbox (published copies live in tenants/devlog/content/)
 dropload/*
 !dropload/README.md
+
+# Sentry Config File
+.env.sentry-build-plugin
