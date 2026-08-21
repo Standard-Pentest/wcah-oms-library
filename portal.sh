@@ -22,6 +22,10 @@ echo "🌐 Updating root portal hub at dist/library/index.html..."
 node scripts/build-portal.js
 
 echo ""
+echo "📡 Injecting Sentry loader into generated HTML..."
+node scripts/inject-sentry.js
+
+echo ""
 echo "🚀 Starting Pagenary server at http://localhost:5173 ..."
 echo "-----------------------------------------------------------------"
 echo "  • Portal Hub:   http://localhost:5173/"

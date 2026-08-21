@@ -24,6 +24,16 @@ test('package.json pins Node 22.x for Vercel', () => {
   assert.deepEqual(pkg.engines, { node: '22.x' });
 });
 
+test('package.json injects the Sentry loader into generated HTML', () => {
+  const pkg = JSON.parse(
+    readFileSync(path.join(repoRoot, 'package.json'), 'utf8'),
+  );
+  assert.match(pkg.scripts.build, /node scripts\/inject-sentry\.js/);
+  assert.equal('build:sentry' in pkg.scripts, false);
+  assert.equal('vite' in (pkg.devDependencies || {}), false);
+  assert.equal('@sentry/react' in (pkg.dependencies || {}), false);
+});
+
 test('.gitignore ignores Vercel link metadata', () => {
   const gitignore = readFileSync(path.join(repoRoot, '.gitignore'), 'utf8');
   assert.match(gitignore, /^\.vercel\/$/m);
