@@ -13,6 +13,12 @@
       "summary": "Chronological repository status reports for TomWCAH/oms-new, newest first.",
       "sections": [
         {
+          "id": "repo-status-2026-08-21",
+          "title": "2026-08-21 — Repository Report",
+          "summary": "Production API still unauthenticated on open 443. main green at 0c7b6a8 with PRs #15–#19 (Week Board + ADRs/CONTEXT.md). Prod still at 8025da4 — two PRs behind; three verified doc contradictions remain.",
+          "file": "repo-status-2026-08-21.md"
+        },
+        {
           "id": "repo-status-2026-08-20-2",
           "title": "2026-08-20 (2nd pass) — Repository Report",
           "summary": "PR #18 ships Week Board slice #4b end-to-end: week_board table (23rd), board API, interactive WeekBoard screen. CI green on both sides of the merge — first clean merge since #12. Critical: production still unauthenticated and two merges behind main (8025da4 vs dfdc48b), redeploy blocked on a GitHub deploy key; developer.md still claims the board is not yet built.",
