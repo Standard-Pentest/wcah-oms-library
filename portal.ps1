@@ -20,6 +20,10 @@ Write-Host "🌐 Updating root portal hub at dist/library/index.html..." -Foregr
 node scripts/build-portal.js
 
 Write-Host ""
+Write-Host "📡 Injecting Sentry loader into generated HTML..." -ForegroundColor Yellow
+node scripts/inject-sentry.js
+
+Write-Host ""
 Write-Host "🚀 Starting Pagenary server at http://localhost:5173 ..." -ForegroundColor Green
 Write-Host "-----------------------------------------------------------------"
 Write-Host "  • Portal Hub:   http://localhost:5173/"
